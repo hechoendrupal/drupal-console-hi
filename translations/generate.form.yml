@@ -6,21 +6,27 @@ options:
     class: 'फॉर्म क्लास का नाम'
     form-id: 'फॉर्म आईडी'
     services: common.options.services
+    config-file: 'Add a config file'
     inputs: common.options.inputs
     path: 'Enter the form path'
+    menu-link-gen: 'Generate a menu link'
+    menu-link-title: 'A title for the menu link'
+    menu-parent: 'Menu parent'
+    menu-link-desc: 'A description for the menu link'
     routing: 'Generate routing'
 questions:
     module: common.questions.module
     class: 'फॉर्म क्लास का नाम दर्ज करें'
     form-id: 'फॉर्म आईडी दर्ज करें'
     services: common.questions.services
+    config-file: 'Do you want to generate a config file'
     inputs: common.questions.inputs
     routing: 'Would you like to register a route for this form'
+    path: 'Enter the route path'
     menu_link_gen: 'एक मेनू लिंक उत्पन्न'
     menu_link_title: 'मेनू लिंक के लिए एक शीर्षक'
     menu_parent: 'मेनू पैरेंट'
     menu_link_desc: 'मेनू लिंक के लिए एक विवरण'
-    path: 'Enter the route path'
 alter:
     description: 'एक hook_form_alter() या hook_form_FORM_ID_alter कार्यान्वयन उत्पन्न करें'
     help: '<info>"%s"</info> कमाण्ड एक नया "%s" उत्पन्न करने में मदद करता है'

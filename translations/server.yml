@@ -3,6 +3,7 @@ arguments:
     address: 'पता: पोर्ट मान'
 messages:
     executing: 'क्रियान्वित php "%s".'
+    listening: 'Listening on "%s".'
 errors:
     binary: 'सर्वर को चलाने के लिए PHP द्विआधारी मिल करने में असमर्थ'
 examples:

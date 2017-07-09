@@ -7,3 +7,7 @@ question:
 messages:
     table: टेबल
     table-drop: 'सफलतापूर्वक "%s" टेबल्स ड्राप'
+examples:
+    -
+        description: 'Drop the tables on the database specified on the argument'
+        execution: "drupal database:drop \\\n  <database>\n"

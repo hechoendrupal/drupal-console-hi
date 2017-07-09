@@ -10,3 +10,10 @@ messages:
     content_type_exported: 'कंटेंट टाइप एक्सपोर्ट करना'
 options:
     optional-config: 'अपने मॉड्यूल में एक वैकल्पिक YAML कॉन्फ़िगरेशन के रूप में कंटेंट टाइप एक्सपोर्ट करे'
+examples:
+    -
+        description: 'Provide a content type  and module name'
+        execution: "drupal config:export:content:type page \\\n  --module=\"demo\""
+    -
+        description: 'If you want export content type provide the optional config'
+        execution: "drupal config:export:content:type page \\\n  --module=\"demo\" \\\n  --optional-config \n"

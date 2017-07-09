@@ -3,3 +3,7 @@ help: '<info>config:settings:debug</info> कमांड आपको वर्
 welcome: 'Drupal कॉन्फिग सेटिंग्स डिबग कमांड में आपका स्वागत है'
 messages:
     current: 'सेटिंग्स फ़ाइल पर वर्तमान key:value'
+examples:
+    -
+        description: 'Displays key:value as per the settings file'
+        execution: "drupal debug:config:settings\n"

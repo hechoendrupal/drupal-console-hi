@@ -8,7 +8,10 @@ questions:
 messages:
     invalid-rest-id: 'रेस्ट आईडी "%s" अमान्य है'
     formats: 'उपलब्ध अनुक्रमण आरूप'
+    methods: 'Available methods'
     authentication-providers: 'उपलब्ध प्रमाणीकरण प्रदाता'
-    selected-state: 'चयनित राज्य स्टेट'
+    selected-method: 'Selected Method'
     selected-formats: 'चयनित प्रारूपों'
     selected-authentication-providers: 'चयनित प्रमाणीकरण प्रदाता'
+    success: 'Rest ID "%s" enabled'
+    selected-state: 'चयनित राज्य स्टेट'

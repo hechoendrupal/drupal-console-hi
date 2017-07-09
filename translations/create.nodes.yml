@@ -13,7 +13,7 @@ questions:
     title-words: 'टाइटल्स में शब्दों की अधिकतम संख्या एंटर करे'
     time-range: 'नोड्स कितनी दूर समय में वापस दिनांकित किया जाना चाहिए?'
     time-ranges:
-        - 'अभी'
+        - अभी
         - '1 घंटे पहले'
         - '1 दिन पहले'
         - '1 सप्ताह पहले'
@@ -26,3 +26,10 @@ messages:
     created: 'बनाया गया समय'
     invalid-content-types: 'कंटेंट टाइप्स "%s" अवैध हैं'
     created-nodes: '"%s" नोड्स को सफलतापूर्वक बनाया गया'
+examples:
+    -
+        description: 'Provide the content type name.'
+        execution: 'drupal create:nodes content-name'
+    -
+        description: 'Provide the limit of publications, limit of title words, time range and language.'
+        execution: "drupal create:nodes content-name \\\n  --limit=\"5\" \\\n  --title-words=\"5\" \\\n  --time-range=\"1\" \\\n  --language=\"und\"\n"

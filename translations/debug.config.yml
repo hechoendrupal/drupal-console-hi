@@ -1,0 +1,15 @@
+description: 'वर्तमान व्यवस्था को दिखाएँ।'
+arguments:
+    name: 'व्यवस्था नाम।'
+errors:
+    not-exists: 'कॉन्फ़िगरेशन "%s" मौजूद नहीं करता है।'
+examples:
+    -
+        description: 'List all configuration object names.'
+        execution: 'drupal config:debug'
+    -
+        description: 'Display system site configurations values.'
+        execution: 'drupal config:debug system.site'
+    -
+        description: 'List all system configuration names.'
+        execution: 'drupal config:debug | grep system'

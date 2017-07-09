@@ -13,6 +13,7 @@ questions:
     service-name: 'सर्विस का नाम दर्ज करें'
     class: 'क्लास का नाम दर्ज करें'
     interface: 'एक नया इंटरफ़ेस बनाएं'
+    interface-name: 'Enter the interface name'
     services: common.options.services
     path: 'Enter the path for the services'
 messages:

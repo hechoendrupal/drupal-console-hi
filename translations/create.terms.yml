@@ -16,3 +16,10 @@ messages:
     name: नाम
     invalid-vocabularies: 'वोकेबुलरी(स) "%s" अमान्य हैं'
     created-terms: '"%s" टर्म्ज़ सफलतापूर्वक बने'
+examples:
+    -
+        description: 'Provide the vocabulary term name.'
+        execution: 'drupal create:terms vocabulary'
+    -
+        description: 'Provide the limit of terms to add and limit of title words.'
+        execution: "drupal create:terms tags \\\n  --limit=\"10\" \\\n  --name-words=\"5\"\n"

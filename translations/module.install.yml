@@ -27,3 +27,4 @@ messages:
     no-releases: 'मॉड्यूल "%s" के लिए कोई भी रिलीज नहीं कर रहे हैं '
     installing: 'इंस्टॉलिंग मॉडल(स) "%s"'
     composer: 'कंपोजर के साथ मॉड्यूल सफलतापूर्वक स्थापित किया गया था'
+    error-creating-folder: 'Error creating folder "%s", please check your permissions'

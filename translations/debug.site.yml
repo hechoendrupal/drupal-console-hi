@@ -4,6 +4,11 @@ messages:
     site: साइट
     host: होस्ट
     root: रूट
-    directory-not-found: 'साइट की डायरेक्ट्री नहीं मिली|'
+    not-sites: 'No sites defined'
+    invalid-site: 'Invalid site name'
     private-key: 'निजी कुंजी के साथ त्रुटि'
     connect-error: 'रिमोट मशीन से कनेक्ट होने में त्रुटि'
+    directory-not-found: 'साइट की डायरेक्ट्री नहीं मिली|'
+options:
+    target: Target
+    property: Property

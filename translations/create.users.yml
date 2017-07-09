@@ -13,7 +13,7 @@ questions:
     password: 'क्रिएटेड यूजरस के लिए पासवर्ड एंटर करे'
     time-range: 'कितनी अवधि में यूजरस दिनांकित किया जाना चाहिए?'
     time-ranges:
-        - 'अभी'
+        - अभी
         - '1 घंटे पहले'
         - '1 दिन पहले'
         - '1 सप्ताह पहले'
@@ -25,3 +25,10 @@ messages:
     username: यूजरनाम
     created: 'क्रिएटेड समय'
     created-users: 'क्रिएटेड "%s" सफलतापूर्वक यूजरस'
+examples:
+    -
+        description: 'Provide the user role.'
+        execution: 'drupal create:users role'
+    -
+        description: 'Provide the number of users to create, password and time range to create.'
+        execution: "drupal create:users role \\\n  --limit=\"5\" \\\n  --password=\"usersnewpassword\" \\\n  --time-range=\"1\"\n"

@@ -6,3 +6,7 @@ messages:
     database-not-supported: 'डाटाबेस "%s" टाइप अभी तक समर्थित नहीं है'
     database-client-not-found: 'डाटाबेस क्लाइंट "%s" नहीं मिला था'
     connection: 'कनेक्शन: "%s"'
+examples:
+    -
+        description: 'Connects to an specified database, or the default if not arguments passed'
+        execution: "drupal database:connect \\\n  <database>\n"
