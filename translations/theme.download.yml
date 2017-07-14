@@ -1,9 +1,9 @@
 description: 'आवेदन में विषय डाउनलोड करे'
 arguments:
-    version: 'Theme version i.e 1.x-dev'
-    theme: 'the Theme name'
+    version: 'विषय संस्करण i.e 1.x-dev'
+    theme: 'विषय का नाम'
 options:
-    composer: 'Use --composer option for manage the theme download with Composer'
+    composer: 'Composer के साथ थीम डाउनलोड  करने के लिए --composer विकल्प का उपयोग करें'
     version: 'थीम संस्करण अर्थात् 1.x-dev'
 messages:
     no-releases: '"%s" विषय के लिए किसी भी रिलीज नहीं हैं'
@@ -15,4 +15,4 @@ messages:
     error-creating-folder: 'फ़ोल्डर बनाने में त्रुटि "%s" कृपया अपनी अनुमतियों की जाँच'
 tips:
     -
-        tip: 'Pass a «true» value to «shellexec_output» key in your config.yml file to see interactively Composer''s output or «false» to hide it'
+        tip: 'Composer की पारस्परिक रूप से आउटपुट देखने के लिए अपनी config.yml फ़ाइल में «shellexec_output» key को  «true» पास करें या इसे छुपाने के लिए «false» पास करें'

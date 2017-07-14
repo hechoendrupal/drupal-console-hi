@@ -1,5 +1,5 @@
-description: 'Applying Entity Updates'
+description: ' अपडेटस को लागू करना'
 messages:
-    start: 'Starting the entity updates'
-    end: 'Finished the entity updates'
-    error: 'Error on Entity Updates'
+    start: 'Entity अपडेटस शुरू कर रहा है'
+    end: 'Entity अपडेटस समाप्त'
+    error: 'Entity अपडेटस  पर त्रुटि'

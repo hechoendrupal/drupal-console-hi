@@ -1,7 +1,7 @@
 description: 'Drupal कंसोल कॉन्फिग फाइल में एक विशिष्ट सेटिंग मूल्य बदलें'
 arguments:
     name: 'Setting name in YAML flatten format to set a value in Drupal Console config file'
-    value: 'Setting value to set in Drupal Console config file'
+    value: 'वॅल्यू सेट करने के लिए Drupal Console config फाइल में सेट करें'
     setting-name: ' Drupal कंसोल config फाइल में एक मूल्य निर्धारित करने के लिए YAML समतल में सेटिंग नाम का स्थापना'
     setting-value: 'सेटिंग वैल्यू Drupal कंसोल config फाइल में स्थापित करने के लिए'
 messages:
@@ -9,5 +9,5 @@ messages:
     error-generating: 'कॉन्फिग फाइल में नई भाषा को स्थापित करने में त्रुटि।'
     error-writing: 'कॉन्फिग फाइल लिखने में त्रुटि।'
     success: 'सेटिंग "%s" Drupal कंसोल के लिए "%s" करने के लिए स्थापित किया गया था।'
-    missing-file: 'The "%s" config file is missing, try executing `drupal init`'
-    missing-language: 'Provided language: "%s", not found'
+    missing-file: '"%s" Config फाइल अनुपलब्ध है,  `drupal init` एक्सेक्यूट करने का प्रयास करें'
+    missing-language: 'दी गई भाषा: "%s", नहीं मिली'

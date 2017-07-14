@@ -1,8 +1,8 @@
-description: 'Process the selected queue.'
+description: 'चयनित कतार पर प्रक्रिया करें।'
 arguments:
-    name: 'Queue name.'
+    name: 'कतार का नाम।'
 messages:
     success: 'Processed "%s": "%s"/"%s" items in "%s" seconds.'
     failed: '"%s" failed: "%s".'
-    missing-name: 'Provide a valid queue name.'
-    invalid-name: 'Invalid queue name "%s" provided.'
+    missing-name: 'वैध कतार नाम प्रदान करें'
+    invalid-name: 'अमान्य कतार नाम "%s" प्रदान किया गया।'

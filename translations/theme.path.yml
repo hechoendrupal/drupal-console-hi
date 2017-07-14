@@ -1,6 +1,6 @@
-description: 'Returns the relative path to the theme (or absolute path)'
+description: 'विषय के रिलेटीव पाथ को रिटर्न करता है (या absolute पाथ)'
 arguments:
-    module: 'The Theme name (machine name)'
+    module: 'विषय का नाम (मशीन नाम)'
 options:
-    absolute: 'Return theme absolute path'
+    absolute: 'विषय के absolute पाथ को रिटर्न करता है'
 messages: null

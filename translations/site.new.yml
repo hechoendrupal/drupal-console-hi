@@ -26,4 +26,4 @@ questions:
     stable: 'क्या आप स्टेबल रिलीज का उपयोग करना चाहते हैं?'
 tips:
     -
-        tip: 'Pass a «true» value to «shellexec_output» key in your config.yml file to see interactively Composer''s output or «false» to hide it'
+        tip: 'Composer की पारस्परिक रूप से आउटपुट देखने के लिए अपनी config.yml फ़ाइल में «shellexec_output» key को  «true» पास करें या इसे छुपाने के लिए «false» पास करें'
