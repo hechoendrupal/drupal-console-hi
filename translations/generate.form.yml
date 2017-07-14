@@ -27,10 +27,10 @@ questions:
     menu_link_title: 'मेनू लिंक के लिए एक शीर्षक'
     menu_parent: 'मेनू पैरेंट'
     menu_link_desc: 'मेनू लिंक के लिए एक विवरण'
-alter:
-    description: 'एक hook_form_alter() या hook_form_FORM_ID_alter कार्यान्वयन उत्पन्न करें'
-    help: '<info>"%s"</info> कमाण्ड एक नया "%s" उत्पन्न करने में मदद करता है'
-    options:
-        form-id: 'फॉर्म आईड को बदलने के लिए'
-    messages:
-        inputs: "फॉर्म को बदलने लिए फॉर्म में आप खाने डाल सकते हैं।\nइच्छानुसार <info>जारी</info> रखने के लिए <info>enter</info> कुंजी दबाएँ"
+examples:
+    -
+        description: 'Generate an empty form with config file specifying the module name, the class, a form id and the path'
+        execution: "drupal generate:form  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultForm\"  \\\n  --form-id=\"default_form\"  \\\n  --config-file  \\\n  --path=\"/modulename/form/default\""
+    -
+        description: 'Generate a form with 2 fields and a config file specifying the module name, the class, a form id, the inputs and the path'
+        execution: "drupal generate:form  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultForm\"  \\\n  --form-id=\"default_form\"  \\\n  --config-file  \\\n  --inputs='\"name\":\"inputname\", \"type\":\"text_format\", \"label\":\"InputName\", \"options\":\"\", \"description\":\"Just a text input\", \"maxlength\":\"\", \"size\":\"\", \"default_value\":\"\", \"weight\":\"0\", \"fieldset\":\"\"'  \\\n  --inputs='\"name\":\"email\", \"type\":\"email\", \"label\":\"Email\", \"options\":\"\", \"description\":\"Just an email input\", \"maxlength\":\"\", \"size\":\"\", \"default_value\":\"\", \"weight\":\"0\", \"fieldset\":\"\"'  \\\n  --path=\"/modulename/form/default\""

@@ -10,3 +10,7 @@ messages:
 errors:
     no-key: 'आप ओवरराइड करने के लिए स्थिति की मौलिक प्रदान करनी चाहिए'
     no-value: 'आप स्थापित करने के लिए मूल मूल्य प्रदान करनी चाहिए।'
+examples:
+    -
+        description: 'Override state value specifying the state name and the new value'
+        execution: "drupal state:override  comment.node_comment_statistics_scale \"!!float 1\"\n"

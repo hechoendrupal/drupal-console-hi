@@ -17,3 +17,7 @@ questions:
     plugin-states: 'अपने साधन में रेस्ट स्थिति लागू के लिए चयन करें ( GET डिफ़ॉल्ट रूप से चुना जाता है)'
 messages:
     selected-states: 'स्थिति चयनित'
+examples:
+    -
+        description: 'Generate a rest resource plugin using GET specifying the module name, the class, the plugin id, its label, the target url and the request type'
+        execution: "drupal generate:plugin:rest:resource  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultRestResource\"  \\\n  --plugin-id=\"default_rest_resource\"  \\\n  --plugin-label=\"Default rest resource\"  \\\n  --plugin-url=\"http://rest.resources.example.com\"  \\\n  --plugin-states='GET'\n"

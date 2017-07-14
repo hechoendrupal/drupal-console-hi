@@ -3,3 +3,7 @@ messages:
     styles-list: 'इमेज स्टाइल साइट में परिभाषित'
     styles-label: लेबल
     styles-name: 'मशीन का नाम'
+examples:
+    -
+        description: 'List all images styles on the site'
+        execution: "drupal debug:image:styles\n"

@@ -19,3 +19,7 @@ messages:
     theme-default-success: '"%s" विषय डिफ़ॉल्ट विषय के रूप में सफलतापूर्वक स्थापित कर दिया गया है'
     disabled-themes: 'केवल रद्द विषयों स्वत: पूर्ण में सूचीबद्ध किया जाएगा'
     invalid-theme-default: 'विकल्प डिफ़ॉल्ट रूप से एक विषय के लिए ही मान्य है'
+examples:
+    -
+        description: 'Install theme specifying the name'
+        execution: "drupal theme:install  mytheme\n"

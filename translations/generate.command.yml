@@ -18,3 +18,7 @@ questions:
     container: 'क्या आप को सर्विसेज़ कंटेनर तक पहुचने की आवश्यकता है'
 messages:
     title-not-empty: 'शीर्षक खाली नही रह सकता'
+examples:
+    -
+        description: 'Generate a command specifying the extension name and type, its class and the name.'
+        execution: "drupal generate:command  \\\n  --extension=\"ExtensionName\"  \\\n  --extension-type=\"module\"  \\\n  --class=\"DefaultCommand\"  \\\n  --name=\"CommandName\""

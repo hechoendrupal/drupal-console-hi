@@ -4,3 +4,7 @@ arguments:
 messages:
     rebuilding: 'मार्ग पथ का पुनर्निर्माण चल रहा है, कृपया प्रतीक्षा करें'
     completed: 'मार्ग पथ का पुनर्निर्माण हो गया है'
+examples:
+    -
+        description: 'Rebuild routes'
+        execution: 'drupal router:rebuild'

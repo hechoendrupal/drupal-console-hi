@@ -13,6 +13,7 @@ messages:
     select-release: 'अपने पसंदीदा विज्ञप्ति का चयन करें'
     outside-drupal: 'ड्रुपल जड़ से निर्धारित नहीं किया जा सकता गंतव्य सेट करने --root प्रयोग करें वर्तमान फ़ोल्डर के बजाय इस्तेमाल किया जाएगा.'
     error-creating-folder: 'फ़ोल्डर बनाने में त्रुटि "%s" कृपया अपनी अनुमतियों की जाँच'
-tips:
+examples:
     -
-        tip: 'Pass a «true» value to «shellexec_output» key in your config.yml file to see interactively Composer''s output or «false» to hide it'
+        description: 'Download theme specifying name and version'
+        execution: "drupal theme:download  Alina 7.x-1.2\n"

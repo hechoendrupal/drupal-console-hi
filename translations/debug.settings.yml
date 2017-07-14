@@ -3,3 +3,7 @@ messages:
     config-key: 'कॉन्फिग कुंजी'
     config-value: 'कॉन्फिग वैल्यू'
     config-file: 'कॉन्फिग फाइल'
+examples:
+    -
+        description: ''
+        execution: "drupal debug:settings\n"
