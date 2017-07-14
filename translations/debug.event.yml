@@ -7,3 +7,10 @@ messages:
     class: श्रेणी
     method: मेथड
     no-events: 'यह इवेंट मौजूद नहीं है, कमांड को एक्सीक्यूट करने की कोशिश करें: event:debug'
+examples:
+    -
+        description: 'List all the events that could be debugged'
+        execution: 'drupal debug:evet'
+    -
+        description: 'Show the information for the kernel.request event'
+        execution: 'drupal debug:event kernel.request'

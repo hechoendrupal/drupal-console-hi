@@ -6,3 +6,7 @@ messages:
     executing-update: 'मॉड्यूल "%s" का "%s" फंक्शन को अपडेट कर एक्सेक्युट करे'
     module-update-function-not-found: 'मॉड्यूल "%s" में "%s" के लिए एक फंक्शन अपडेट भी नहीं है'
     executing-required-previous-updates: 'पिछले अपडेट की आवश्यकता को एक्सेक्युट करे'
+examples:
+    -
+        description: 'Update all entities'
+        execution: "drupal update:execute\n"

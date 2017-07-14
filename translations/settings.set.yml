@@ -11,3 +11,7 @@ messages:
     success: 'सेटिंग "%s" Drupal कंसोल के लिए "%s" करने के लिए स्थापित किया गया था।'
     missing-file: 'The "%s" config file is missing, try executing `drupal init`'
     missing-language: 'Provided language: "%s", not found'
+examples:
+    -
+        description: 'Set application language setting value to "es"'
+        execution: 'drupal settings:set  application.language es'

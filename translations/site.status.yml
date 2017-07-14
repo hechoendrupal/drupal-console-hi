@@ -2,7 +2,7 @@ description: 'वर्तमान Drupal स्थापना के स्�
 messages:
     application: एप्लीकेशन
     system: 'प्रणाली की जानकारी'
-    hash_salt: 'हैश साल्ट'
+    hash-salt: 'Hash salt'
     console: 'Drupal कंसोल का संस्करण'
     database: 'डाटाबेस जोड़'
     driver: ड्राइवर
@@ -12,9 +12,18 @@ messages:
     password: पासवर्ड
     theme: विषय
     connection: कनेक्शन
+    theme-default: 'Default theme'
+    theme-admin: 'Admin theme'
+    directory: डायरेक्ट्रीज
+    directory-root: 'Site root directory'
+    directory-temporary: 'Site temporary directory'
+    directory-theme-default: 'Default theme directory'
+    directory-theme-admin: 'Admin theme directory'
+    current-version: 'Current Drupal ("%s")'
+    not-installed: 'Drupal is not installed'
+    hash_salt: 'हैश साल्ट'
     theme_default: 'डीफाल्ट थीम'
     theme_admin: 'प्रबंधक थीम'
-    directory: डायरेक्ट्रीज
     directory_root: 'साइट रूट डायरेक्टरी'
     directory_temporary: 'साइट अस्थायी डायरेक्टरी'
     directory_theme_default: 'डीफाल्ट थीम डायरेक्टरी'
@@ -25,3 +34,7 @@ messages:
     configuration: कॉन्फ़िगरेशन
     active: 'सक्रिय समाकृति का पथ'
     staging: 'स्टेजिंग समाकृति का पथ'
+examples:
+    -
+        description: 'Get drupal installation status specifying the output format as table'
+        execution: "drupal site:status  \\\n  --format=\"table\"\n"

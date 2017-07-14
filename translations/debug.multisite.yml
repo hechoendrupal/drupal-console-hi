@@ -5,3 +5,7 @@ messages:
     site: साइट
     directory: डायरेक्टरी
     site-format: 'साइट इस प्रारूप में लिखी गयी हैं|: <port>.<domain>.<path>'
+examples:
+    -
+        description: 'Displays multisite information'
+        execution: "drupal debug:multisite\n"

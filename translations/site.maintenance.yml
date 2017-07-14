@@ -6,3 +6,10 @@ messages:
     maintenance-off: 'मेंटेनेंस मोड ऑफ में परिचालन'
 errors:
     invalid-mode: 'अमान्य मेंटेनेंस मोड'
+examples:
+    -
+        description: 'Switch on maintenance'
+        execution: 'drupal site:maintenance  on'
+    -
+        description: 'Switch off maintenance'
+        execution: "drupal site:maintenance  off\n"

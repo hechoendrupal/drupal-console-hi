@@ -13,3 +13,7 @@ messages:
     success: 'निम्नलिखित मोड्यूलो "%s" को सफलतापूर्वक निष्कासन कर दिया गया'
     missing: '"%s" मॉड्यूल इनस्टॉल करने में असमर्थ, "%s" मॉड्यूल के लिए कारण मिसिंग'
     composer-success: 'The folowing module(s) were removed from Composer: "%s"'
+examples:
+    -
+        description: 'Uninstall the module specifying the module name'
+        execution: "drupal module:uninstall  modulename\n"

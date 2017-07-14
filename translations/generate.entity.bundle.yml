@@ -11,3 +11,7 @@ questions:
     bundle-title: 'अपने नये कंटेंट प्रकार का मानव पठनीय नाम दर्ज करें'
 message:
     error-state1: स्थानधारक
+examples:
+    -
+        description: 'Generate bundle entity specifying the module, the bundle name and its title'
+        execution: "drupal generate:entity:bundle  \\\n  --module=\"modulename\"  \\\n  --bundle-name=\"default\"  \\\n  --bundle-title=\"default\""

@@ -25,7 +25,7 @@ questions:
     inputs:
         confirm: 'क्या आप फोर्म का खाका उतपन्न करना चाहेंगे?'
         label: 'उप-शीर्षक निवेश करें।'
-        machine_name: 'यांत्रिक नाम निवेश करें।'
+        machine-name: 'Input machine name'
         permission: 'क्या आप अनुमतियां उत्पन्न करना चाहते हैं।'
         type: प्रकार
         invalid: 'खाना प्रकार "%s" असामान्य हैं।'
@@ -34,6 +34,7 @@ questions:
         weight: 'इनपुट आइटम के लिए वजन'
         title: शीर्षक
         fieldset: 'फील्ड सेट'
+        machine_name: 'यांत्रिक नाम निवेश करें।'
 errors:
     module-dependency: 'मॉड्यूल निर्भरता "%s" अनुपस्थित है'
     class-name-empty: 'क्लास का नाम खली नही रह सकता'

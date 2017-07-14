@@ -13,3 +13,7 @@ questions:
     label: 'प्लगिन का उप-शीर्षक दर्ज करें'
     plugin-id: 'प्लगिन id दर्ज करें'
     description: 'प्लगिन का विवरण दर्ज करें'
+examples:
+    -
+        description: 'Generate a image effect plugin specifying the module name, the class, its label, the plugin id and a description'
+        execution: "drupal generate:plugin:imageeffect  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultImageEffect\"  \\\n  --label=\"Default image effect\"  \\\n  --plugin-id=\"default_image_effect\"  \\\n  --description=\"My Image Effect\"\n"

@@ -16,3 +16,7 @@ messages:
     display-name: नाम
     display-description: विवरण
     display-paths: पाथ
+examples:
+    -
+        description: 'List of views on the site'
+        execution: "drupal debug:views\n"

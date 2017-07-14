@@ -16,3 +16,10 @@ messages:
     error-copying-file: 'एरर नकल के फ़ाइल'
     error-writing-file: 'एरर नकल के फ़ाइल'
     services-file-overwritten: 'सर्विसेज "%s" फ़ाइल ओवरराइट था'
+examples:
+    -
+        description: 'Switch system to prod'
+        execution: 'drupal site:mode  prod'
+    -
+        description: 'Switch system to dev'
+        execution: "drupal site:mode  dev\n"

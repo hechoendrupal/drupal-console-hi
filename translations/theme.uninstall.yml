@@ -18,3 +18,7 @@ messages:
     invalid-theme-default: 'विकल्प डिफ़ॉल्ट रूप से एक विषय के लिए ही मान्य है'
     error-default-theme: '"%s" डिफ़ॉल्ट विषय है और इसकी स्थापना रद्द नहीं किया जा सकता'
     error-admin-theme: '"%s" व्यवस्थापक विषय है और इसकी स्थापना रद्द नहीं किया जा सकता'
+examples:
+    -
+        description: 'Uninstall theme specifying the name'
+        execution: "drupal theme:uninstall  mytheme\n"
