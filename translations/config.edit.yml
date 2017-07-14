@@ -6,6 +6,7 @@ questions:
     config-name: 'एक विन्यास इकाई चुनें'
 messages:
     no-directory: 'डायरेक्टरी बनाते समय यहाँ एक त्रुटि पाया गया'
+    choose-configuration: 'Choose a configuration'
 examples:
     -
         description: 'Edit system cron configurations with "vim" (default editor).'
