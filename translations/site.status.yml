@@ -15,12 +15,12 @@ messages:
     theme-default: 'Default theme'
     theme-admin: 'Admin theme'
     directory: डायरेक्ट्रीज
-    directory-root: 'Site root directory'
-    directory-temporary: 'Site temporary directory'
-    directory-theme-default: 'Default theme directory'
-    directory-theme-admin: 'Admin theme directory'
-    current-version: 'Current Drupal ("%s")'
-    not-installed: 'Drupal is not installed'
+    directory-root: 'साइट रूट डायरेक्टरी'
+    directory-temporary: 'साइट अस्थायी डायरेक्टरी'
+    directory-theme-default: 'डीफाल्ट थीम डायरेक्टरी'
+    directory-theme-admin: 'प्रबंधक थीम डायरेक्टरी'
+    current-version: 'वर्तमान Drupal वर्शन ("%s")'
+    not-installed: 'Drupal इनस्टॉल नहीं है'
     hash_salt: 'हैश साल्ट'
     theme_default: 'डीफाल्ट थीम'
     theme_admin: 'प्रबंधक थीम'
@@ -36,5 +36,5 @@ messages:
     staging: 'स्टेजिंग समाकृति का पथ'
 examples:
     -
-        description: 'Get drupal installation status specifying the output format as table'
+        description: 'तालिका के रूप में आउटपुट स्वरूप निर्दिष्ट करने के लिए Drupal स्थापना स्थिति प्राप्त करें'
         execution: "drupal site:status  \\\n  --format=\"table\"\n"
