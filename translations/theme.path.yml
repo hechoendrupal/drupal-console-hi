@@ -1,11 +1,11 @@
-description: 'Returns the relative path to the theme (or absolute path)'
+description: 'विषय (या पूर्ण पथ) के सापेक्ष पथ देता है'
 arguments:
-    theme: 'Theme name'
-    module: 'The Theme name (machine name)'
+    theme: 'थीम का नाम'
+    module: 'थीम का नाम (मशीन का नाम)'
 options:
-    absolute: 'Return theme absolute path'
+    absolute: 'विषय पूर्ण पथ लौटें'
 messages: null
 examples:
     -
-        description: 'Get the path of mytheme'
+        description: 'mytheme का मार्ग प्राप्त करें'
         execution: "drupal theme:path  mytheme\n"

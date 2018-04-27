@@ -1,11 +1,11 @@
-description: 'Validate a schema implementation before a module is installed.'
-help: 'Helper function to validate a schema implementation before a module is installed. Specify the config and the schema file paths as arguments and validation will be run against them, making schema easier to debug without time consuming installs'
+description: 'एक मॉड्यूल स्थापित करने से पहले एक स्कीमा कार्यान्वयन मान्य करें.'
+help: 'मॉड्यूल स्थापित होने से पहले स्कीमा कार्यान्वयन को सत्यापित करने के लिए हेल्पर फ़ंक्शन। कॉन्फ़िगरेशन और स्कीमा फ़ाइल पथ निर्दिष्ट करें क्योंकि तर्क और सत्यापन उनके खिलाफ चलाया जाएगा, स्कीमा को समय लेने वाले इंस्टॉलेशन के बिना डीबग करना आसान बनाता है'
 options: {  }
 arguments: {  }
 messages:
-    noConfFile: 'Config file at the specified path does not exist'
-    noConfSchema: 'Config schema at the specified path does not exist'
-    noSchemaName: 'Could not find schema definition in schema file. Using definition name:'
+    noConfFile: 'निर्दिष्ट पथ पर कॉन्फ़िगर फ़ाइल मौजूद नहीं है'
+    noConfSchema: 'निर्दिष्ट पथ पर कॉन्फ़िगर स्कीमा मौजूद नहीं है'
+    noSchemaName: 'स्कीमा फ़ाइल में स्कीमा परिभाषा नहीं मिल सका. परिभाषा नाम का प्रयोग करना:'
 examples:
     -
         description: ''

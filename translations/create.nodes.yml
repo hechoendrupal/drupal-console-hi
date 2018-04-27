@@ -28,8 +28,8 @@ messages:
     created-nodes: '"%s" नोड्स को सफलतापूर्वक बनाया गया'
 examples:
     -
-        description: 'Provide the content type name.'
+        description: 'सामग्री प्रकार का नाम प्रदान करें.'
         execution: 'drupal create:nodes content-name'
     -
-        description: 'Provide the limit of publications, limit of title words, time range and language.'
+        description: 'प्रकाशनों की सीमा, शीर्षक शब्दों की सीमा, समय सीमा और भाषा प्रदान करें.'
         execution: "drupal create:nodes content-name \\\n  --limit=\"5\" \\\n  --title-words=\"5\" \\\n  --time-range=\"1\" \\\n  --language=\"und\"\n"

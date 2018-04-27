@@ -7,13 +7,13 @@ options:
     module-path: 'मोड्यूल का पथ'
     description: 'मोड्यूल का विवरण'
     core: 'मूल संस्करण'
-    features-bundle: 'Define module as feature using the given Features bundle name'
+    features-bundle: 'दिए गए फीचर्स बंडल नाम का उपयोग करके मॉड्यूल को फीचर के रूप में परिभाषित करें'
     package: 'मोड्यूल पैकेज'
     module-file: 'एक .module फ़ाइल जोड़ें'
     composer: 'composer.json फाइल डालें'
     dependencies: 'मोड्यूल निर्भरता को अल्पविराम से विभाजित करें (अथवा context, panels)'
     test: 'एक परीक्षण क्लास बनाएं'
-    twigtemplate: 'Generate theme template'
+    twigtemplate: 'थीम टेम्पलेट जेनरेट करें'
     controller: 'डिफ़ॉल्ट कंट्रोलर'
 questions:
     module: 'नया मोड्यूल का नाम दर्ज करें'
@@ -23,15 +23,15 @@ questions:
     core: 'Drupal मूल संस्करण दर्ज करें'
     package: 'पैकेज नाम दर्ज करें'
     features-support: 'मोड्यूल को फीचर सा परिभाषित करें'
-    features-bundle: 'Enter Features bundle name'
+    features-bundle: 'विशेषताएं बंडल नाम दर्ज करें'
     module-file: 'आप एक .module फ़ाइल उत्पन्न करना चाहते हैं'
     composer: 'क्या आप अपने मोड्यूल में composer.json फाइल डालना चाहते हैं'
     dependencies: 'क्या आप मोड्यूल निर्भरता दर्ज करना चाहेंगे'
     test: 'क्या आप एक परीक्षण क्लास उत्पन्न करना चाहते हैं'
-    twigtemplate: 'Do you want to generate a themeable template'
+    twigtemplate: 'क्या आप एक थीम टेम्पलेट जेनरेट करना चाहते हैं'
     controller: 'क्या आप डीफाल्ट कंट्रोलर उत्पन्न करना चाहते हैं'
 suggestions:
-    my-awesome-module: 'My Awesome Module'
+    my-awesome-module: 'मेरा बहुत बढ़िया मॉड्यूल'
 warnings:
     module-unavailable: 'चेतावनी, निम्नलिखित मॉड्यूल पहले से ही अपने स्थानीय वातावरण में उपलब्ध नहीं हैं "%s"'
 errors:
@@ -39,5 +39,5 @@ errors:
     directory-exists: 'लक्ष्य निर्देशिका "%s" खाली नहीं है।'
 examples:
     -
-        description: 'Generate a module specifying the module name, machine name, the path, its description, drupal core and the package name. In this example the composer file, the unit test and twig template are generated too'
+        description: 'मॉड्यूल नाम, मशीन का नाम, पथ, इसका विवरण, drupal core और पैकेज नाम निर्दिष्ट करने वाला मॉड्यूल जेनरेट करें। इस उदाहरण में composer फ़ाइल, इकाई परीक्षण और टवीग टेम्पलेट भी उत्पन्न होते हैं'
         execution: "drupal generate:module  \\\n  --module=\"modulename\"  \\\n  --machine-name=\"modulename\"  \\\n  --module-path=\"/modules/custom\"  \\\n  --description=\"My Awesome Module\"  \\\n  --core=\"8.x\"  \\\n  --package=\"Custom\"  \\\n  --module-file  \\\n  --composer  \\\n  --test  \\\n  --twigtemplate"

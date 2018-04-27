@@ -4,14 +4,14 @@ messages:
     site: साइट
     host: होस्ट
     root: रूट
-    not-sites: 'No sites defined'
-    invalid-site: 'Invalid site name'
+    not-sites: 'कोई साइट परिभाषित नहीं है'
+    invalid-site: 'अमान्य साइट का नाम'
     private-key: 'निजी कुंजी के साथ त्रुटि'
     connect-error: 'रिमोट मशीन से कनेक्ट होने में त्रुटि'
     directory-not-found: 'साइट की डायरेक्ट्री नहीं मिली|'
 options:
-    target: Target
-    property: Property
+    target: लक्ष्य
+    property: संपत्ति
 examples:
     -
         description: ''

@@ -1,10 +1,10 @@
 description: 'व्यवस्था निधि को सक्रिय डायरेक्टरी में चढ़ा दें।'
 questions:
-    name: 'Enter configuration name'
-    key: 'Enter the configuration key'
-    value: 'Enter the configuration value'
+    name: 'कॉन्फ़िगरेशन नाम दर्ज करें'
+    key: 'कॉन्फ़िगरेशन कुंजी दर्ज करें'
+    value: 'कॉन्फ़िगरेशन मान दर्ज करें'
 arguments:
-    name: 'Configuration name'
+    name: 'कॉन्फ़िगरेशन नाम'
     key: कुंजी
     value: निधि
     config-name: 'व्यवस्था का नाम।'
@@ -13,7 +13,7 @@ messages:
     configuration-key: 'व्यवस्था की कुंजी'
     original: 'मूल निधि'
     updated: 'चढ़ाई निधि'
-    invalid-name: 'Config object "%s", does not exists'
+    invalid-name: 'कॉन्फ़िगर ऑब्जेक्ट "%s", मौजूद नहीं है'
 examples:
     -
         description: '"flood" मॉड्यूल संपर्क 10 का मूल्य निर्धारित किया है।'

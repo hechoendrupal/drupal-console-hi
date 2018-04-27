@@ -18,8 +18,8 @@ messages:
     created-terms: '"%s" टर्म्ज़ सफलतापूर्वक बने'
 examples:
     -
-        description: 'Provide the vocabulary term name.'
+        description: 'शब्दावली शब्द का नाम प्रदान करें.'
         execution: 'drupal create:terms vocabulary'
     -
-        description: 'Provide the limit of terms to add and limit of title words.'
+        description: 'शीर्षक शब्दों को जोड़ने और सीमित करने के लिए शर्तों की सीमा प्रदान करें.'
         execution: "drupal create:terms tags \\\n  --limit=\"10\" \\\n  --name-words=\"5\"\n"

@@ -1,18 +1,18 @@
 description: 'DBLog टेबल से इवेंट्स निकालें, फिल्टर उपलब्ध हैं'
 arguments:
-    event-id: 'DBLog event ID'
+    event-id: 'DBLog घटना आईडी'
 options:
-    type: 'Filter events by a specific type'
-    severity: 'Filter events by a specific level of severity'
-    user-id: 'Filter events by a specific user id'
+    type: 'एक विशिष्ट प्रकार से घटनाओं को फ़िल्टर करें'
+    severity: 'एक विशिष्ट स्तर की गंभीरता से घटनाओं को फ़िल्टर करें'
+    user-id: 'एक विशिष्ट user आईडी द्वारा घटनाओं को फ़िल्टर करें'
 messages:
     event-deleted: 'इवेंट "%s" हटाया गया था'
     clear-error: 'स्पष्ट प्रोसेस विफल रहा है, कृपया इस्तेमाल किये गए फिल्टर की जाँच करे'
     clear-sucess: 'इवेंट्स की सफाई सफलतापूर्वक था'
 examples:
     -
-        description: 'Clear the database log from DBLog table'
+        description: 'DBLog तालिका से डेटाबेस लॉग साफ़ करें'
         execution: "drupal database:log:clear \\\n  <database>"
     -
-        description: 'Clear the database log from DBLog table using filters'
+        description: 'फिल्टर का उपयोग कर DBLog तालिका से डेटाबेस लॉग साफ़ करें'
         execution: "drupal database:log:clear \\\n  <database> \\\n  --type=TYPE \\\n  --severity=SEVERITY"

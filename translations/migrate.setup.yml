@@ -7,7 +7,7 @@ options:
     db-pass: 'डेटाबेस पासवर्ड'
     db-prefix: 'डेटाबेस उपसर्ग'
     db-port: 'डेटाबेस पोर्ट'
-    source-base_path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
+    source-base_path: 'आपकी स्रोत साइट (उदा। /var/www/docroot), या आपकी साइट पता (उदाहरण के लिए http://example.com) वाली स्थानीय फ़ाइल निर्देशिका'
     files-directory: 'फाइल्स डायरेक्टरी'
 questions:
     db-type: 'Drupal डेटाबेस प्रकार'
@@ -17,7 +17,7 @@ questions:
     db-pass: 'डेटाबेस पासवर्ड'
     db-prefix: 'डेटाबेस उपसर्ग'
     db-port: 'डेटाबेस पोर्ट'
-    source-base_path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
+    source-base_path: 'आपकी स्रोत साइट (उदा। /var/www/docroot), या आपकी साइट पता (उदाहरण के लिए http://example.com) वाली स्थानीय फ़ाइल निर्देशिका'
     files-directory: 'फाइल्स डायरेक्टरी'
 messages:
     not-drupal: 'स्रोत डेटाबेस एक पहचानने पहचानने योग्य Drupal संस्करण नहीं है'

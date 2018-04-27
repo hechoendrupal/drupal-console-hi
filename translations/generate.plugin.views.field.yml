@@ -11,5 +11,5 @@ questions:
     description_default: 'मेरे कमाल का कस्टम व्यू प्लगिन खाना'
 examples:
     -
-        description: 'Generate a custom view field plugin specifying the module name, the class, a title and its description'
+        description: 'मॉड्यूल नाम, कक्षा, एक शीर्षक और इसके विवरण को निर्दिष्ट करने वाला कस्टम व्यू फ़ील्ड प्लगइन जेनरेट करें'
         execution: "drupal generate:plugin:views:field  \\\n  --module=\"modulename\"  \\\n  --class=\"CustomViewsField\"  \\\n  --title=\"Custom views field\"  \\\n  --description=\"My awesome custom views field plugin.\"\n"

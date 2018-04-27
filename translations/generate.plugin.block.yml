@@ -16,11 +16,11 @@ questions:
     plugin-id: 'प्लगिन id दर्ज करें'
     inputs: common.questions.inputs
     services: common.questions.services
-    theme-region: 'Enter the theme region to render the Plugin Block.'
+    theme-region: 'प्लगइन ब्लॉक प्रस्तुत करने के लिए विषय क्षेत्र दर्ज करें.'
 messages:
     inputs: "\nब्लॉक की विशेष व्यवस्था बनाने के लिए आप निवेश खाने डाल सकते हैं।\nइच्छानुसार <info>जारी</info> रखने के लिए <info>enter</info> कुंजी दबाएँ"
     invalid-theme-region: '"%s" रीजन अमान्य है'
 examples:
     -
-        description: 'Generate a plugin block in the header region with an input field specifying the module name, the class, the label, its id, the region and the input'
+        description: 'मॉड्यूल नाम, कक्षा, लेबल, इसकी आईडी, क्षेत्र और इनपुट निर्दिष्ट करने वाले इनपुट फ़ील्ड के साथ हेडर क्षेत्र में एक प्लगइन ब्लॉक जेनरेट करें'
         execution: "drupal generate:plugin:block  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultBlock\"  \\\n  --label=\"Default block\"  \\\n  --plugin-id=\"default_block\"  \\\n  --theme-region=\"header\"  \\\n  --inputs='\"name\":\"inputtext\", \"type\":\"text_format\", \"label\":\"InputText\", \"options\":\"\", \"description\":\"Just an input text\", \"maxlength\":\"\", \"size\":\"\", \"default_value\":\"\", \"weight\":\"0\", \"fieldset\":\"\"'"

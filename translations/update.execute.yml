@@ -8,5 +8,5 @@ messages:
     executing-required-previous-updates: 'पिछले अपडेट की आवश्यकता को एक्सेक्युट करे'
 examples:
     -
-        description: 'Update all entities'
+        description: 'सभी इकाइयों को अद्यतन करें'
         execution: "drupal update:execute\n"

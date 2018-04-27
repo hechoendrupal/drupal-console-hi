@@ -15,8 +15,8 @@ messages:
     theme-properties: प्रॉपर्टीज
 examples:
     -
-        description: 'List of themes on the site'
+        description: 'साइट पर विषयों की सूची'
         execution: 'drupal debug:theme'
     -
-        description: 'Bartik theme information'
+        description: 'Bartik विषय जानकारी'
         execution: 'drupal debug:theme bartik'

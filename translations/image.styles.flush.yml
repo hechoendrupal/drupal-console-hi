@@ -1,15 +1,15 @@
-description: 'Execute flush function by image style or execute all flush images styles'
+description: 'छवि शैली द्वारा फ्लश फ़ंक्शन निष्पादित करें या सभी फ्लश छवि शैलियों को निष्पादित करें'
 messages:
-    executing-flush: 'Executing flush function on image style "%s"'
-    success: 'All flush functions requested were executed successfully'
+    executing-flush: 'छवि शैली "%s" पर फ्लश फ़ंक्शन निष्पादित करना'
+    success: 'अनुरोध किए गए सभी फ्लश कार्यों को सफलतापूर्वक निष्पादित किया गया था'
 options:
-    image-style: 'The Images Styles name.'
+    image-style: 'छवियां शैलियाँ नाम.'
 questions:
-    image-style: 'Select Images Styles to flush.'
+    image-style: 'फ्लश करने के लिए छवियों शैलियों का चयन करें.'
 examples:
     -
-        description: 'Flush large image style'
+        description: 'बड़ी छवि शैली फ्लश करें'
         execution: 'drupal image:styles:flush  large'
     -
-        description: 'Flush thumbnail image style'
+        description: 'फ्लश थंबनेल छवि शैली'
         execution: "drupal image:styles:flush  thumbnail\n"

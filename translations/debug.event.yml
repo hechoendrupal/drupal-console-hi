@@ -9,8 +9,8 @@ messages:
     no-events: 'यह इवेंट मौजूद नहीं है, कमांड को एक्सीक्यूट करने की कोशिश करें: event:debug'
 examples:
     -
-        description: 'List all the events that could be debugged'
+        description: 'डीबग किए जा सकने वाले सभी कार्यक्रमों की सूची बनाएं'
         execution: 'drupal debug:evet'
     -
-        description: 'Show the information for the kernel.request event'
+        description: 'Kernel.request घटना के लिए जानकारी दिखाएं'
         execution: 'drupal debug:event kernel.request'

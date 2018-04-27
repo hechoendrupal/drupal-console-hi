@@ -22,8 +22,8 @@ questions:
     context: 'प्लगिन प्रसंग दर्ज करें'
 examples:
     -
-        description: 'Generate a user rule action plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context'
+        description: 'मॉड्यूल नाम, कक्षा, उसका लेबल, प्लगइन आईडी, प्रकार, श्रेणी और इसके संदर्भ को निर्दिष्ट करने वाला उपयोगकर्ता नियम क्रिया प्लगइन जेनरेट करें'
         execution: "drupal generate:plugin:rulesaction  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultAction\"  \\\n  --label=\"Default action\"  \\\n  --plugin-id=\"default_action\"  \\\n  --type=\"user\"  \\\n  --category=\"default_action\"  \\\n  --context=\"default_action\""
     -
-        description: 'Generate a node rule action plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context'
+        description: 'मॉड्यूल नाम, कक्षा, इसके लेबल, प्लगइन आईडी, प्रकार, श्रेणी और इसके संदर्भ को निर्दिष्ट करने वाला एक नोड नियम क्रिया प्लगइन जेनरेट करें'
         execution: "drupal generate:plugin:rulesaction  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultAction\"  \\\n  --label=\"Default action\"  \\\n  --plugin-id=\"default_action\"  \\\n  --type=\"node\"  \\\n  --category=\"default_action\" \\\n  --context=\"default_action\"\n"

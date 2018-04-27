@@ -5,11 +5,11 @@ errors:
     not-exists: 'कॉन्फ़िगरेशन "%s" मौजूद नहीं करता है।'
 examples:
     -
-        description: 'List all configuration object names.'
+        description: 'सभी विन्यास ऑब्जेक्ट नामों की सूची.'
         execution: 'drupal config:debug'
     -
-        description: 'Display system site configurations values.'
+        description: 'सिस्टम सिस्टम कॉन्फ़िगरेशन मान प्रदर्शित करें.'
         execution: 'drupal config:debug system.site'
     -
-        description: 'List all system configuration names.'
+        description: 'सभी सिस्टम विन्यास नामों की सूची.'
         execution: 'drupal config:debug | grep system'

@@ -1,10 +1,10 @@
-description: 'Generate an implementation of hook_help()'
-help: 'The <info>"%s"</info> command helps you generate a hook help "%s"'
+description: 'hook_help() के कार्यान्वयन को उत्पन्न करें'
+help: '<info>"%s"</info> आदेश आपको हुक सहायता "%s" उत्पन्न करने में मदद करता है'
 options: null
 questions: null
 messages:
-    help-already-implemented: 'The hook help was already implemented in module "%s"'
+    help-already-implemented: 'हुक सहायता पहले ही मॉड्यूल "%s" में लागू की गई थी'
 examples:
     -
-        description: 'Generate a hook help specifying the module name and the description'
+        description: 'मॉड्यूल नाम और विवरण निर्दिष्ट करने में एक हुक सहायता उत्पन्न करें'
         execution: "drupal generate:help  \\\n  --module=\"modulename\"  \\\n  --description=\"My Awesome Module\""

@@ -1,12 +1,12 @@
-description: 'Debug entities available in the system'
-help: 'The <info>entity:debug</info> command helps get a list of entities.'
+description: 'सिस्टम में उपलब्ध डीबग इकाइयां'
+help: '<info>entity:debug</info> आदेश entities की एक सूची प्राप्त करने में मदद करता है.'
 arguments: null
 questions: null
 messages: null
 table-headers:
-    entity-name: 'Entity name'
-    entity-type: 'Entity type'
+    entity-name: 'इकाई नाम'
+    entity-type: 'इकाई प्रकार'
 examples:
     -
-        description: 'Displays the available entities'
+        description: 'उपलब्ध इकाइयों को प्रदर्शित करता है'
         execution: "drupal debug:entity\n"

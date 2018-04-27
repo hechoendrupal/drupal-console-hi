@@ -15,7 +15,7 @@ options:
 questions:
     module: common.questions.module
     class: 'कंट्रोलर क्लास का नाम दर्ज करें'
-    title: 'Enter the Controller method title (to stop adding more methods, leave this empty)'
+    title: 'नियंत्रक विधि शीर्षक दर्ज करें (अधिक विधियों को जोड़ने के लिए, इसे खाली छोड़ दें)'
     method: 'कार्रवाई विधि नाम दर्ज करे'
     path: 'मार्ग पथ दर्ज करें'
     services: common.questions.services
@@ -27,7 +27,7 @@ questions:
     other-controller-title: 'कंट्रोलर शीर्षक (कोड उत्पन्न करने के लिए खाली)'
     controller-title: 'कंट्रोलर शीर्षक'
 messages:
-    title-empty: 'Title must contain a value (you must enter at least one method)'
+    title-empty: 'शीर्षक में एक मान होना चाहिए (आपको कम से कम एक विधि दर्ज करनी होगी)'
     title-already-added: 'शीर्षक पहले ही जोड़ दिया गया है'
     method-name-already-added: 'मेथड का नाम पहले ही जोड़ दिया गया है'
     path-already-added: 'पथ पहले से ही जोड़ा गया है'
@@ -37,5 +37,5 @@ messages:
     invalid-route: 'मार्ग खाली नही हो सकता'
 examples:
     -
-        description: 'Generate controller specifying the module name, the class name and its routes'
+        description: 'मॉड्यूल नाम, कक्षा का नाम और इसके मार्ग निर्दिष्ट करने वाले नियंत्रक उत्पन्न करें'
         execution: "drupal generate:controller  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultController\"  \\\n  --routes='\"title\":\"ControllerMethod\", \"name\":\"modulename.default_controller_hello\", \"method\":\"hello\", \"path\":\"/modulename/hello/{name}\"'  \\\n  --test"

@@ -16,13 +16,13 @@ questions:
     dependencies: 'आप मॉड्यूल निर्भरता जोड़ना चाहेंगे'
     distribution: 'यह स्थापित प्रोफ़ाइल एक वितरण होने का इरादा है'
 suggestions:
-    my-useful-profile: 'My Useful Profile'
-    my-kick-ass-distribution: 'My Kick-ass Distribution'
+    my-useful-profile: 'मेरा उपयोगी प्रोफाइल'
+    my-kick-ass-distribution: 'मेरा किक-ऐस वितरण'
 warnings:
     module-unavailable: 'चेतावनी, निम्नलिखित मॉड्यूल पहले से ही अपने स्थानीय वातावरण में उपलब्ध नहीं हैं "%s"'
 errors:
     directory-exists: 'लक्ष्य निर्देशिका "% s" खाली नहीं है'
 examples:
     -
-        description: 'Generate a profile specifying the profile name, the machine name, a description, the core and its module dependencies'
+        description: 'प्रोफ़ाइल नाम, मशीन का नाम, विवरण, कोर और इसकी मॉड्यूल निर्भरताओं को निर्दिष्ट करने वाली प्रोफ़ाइल उत्पन्न करें'
         execution: "drupal generate:profile  \\\n  --profile=\"NewProfileName\"  \\\n  --machine-name=\"newprofilename\"  \\\n  --description=\"My Useful Profile\"  \\\n  --core=\"8.x\"  \\\n  --dependencies=\"modulename\"\n"

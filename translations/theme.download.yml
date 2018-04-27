@@ -1,9 +1,9 @@
 description: 'आवेदन में विषय डाउनलोड करे'
 arguments:
-    version: 'Theme version i.e 1.x-dev'
-    theme: 'the Theme name'
+    version: 'थीम संस्करण i.e 1.x-dev'
+    theme: 'थीम का नाम'
 options:
-    composer: 'Use --composer option for manage the theme download with Composer'
+    composer: 'composer के साथ थीम डाउनलोड का प्रबंधन करने के लिए --composer विकल्प का उपयोग करें'
     version: 'थीम संस्करण अर्थात् 1.x-dev'
 messages:
     no-releases: '"%s" विषय के लिए किसी भी रिलीज नहीं हैं'
@@ -15,5 +15,5 @@ messages:
     error-creating-folder: 'फ़ोल्डर बनाने में त्रुटि "%s" कृपया अपनी अनुमतियों की जाँच'
 examples:
     -
-        description: 'Download theme specifying name and version'
+        description: 'नाम और संस्करण निर्दिष्ट विषय डाउनलोड करें'
         execution: "drupal theme:download  Alina 7.x-1.2\n"

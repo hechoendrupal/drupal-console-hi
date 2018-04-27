@@ -65,7 +65,7 @@ remote:
 gitbook:
     messages:
         title: 'उपलब्ध Drupal Console कमांड'
-        note: Note
+        note: 'ध्यान दें'
         note-description: 'Drupal Console कमांड एक Drupal 8 स्थापना की जड़ से चलाना चाहिए'
         command: 'Drupal Console कमांड'
         command_description: '**"%s"** कमांड "%s"'

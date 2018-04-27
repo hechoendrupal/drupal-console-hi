@@ -5,5 +5,5 @@ messages:
     current: 'सेटिंग्स फ़ाइल पर वर्तमान key:value'
 examples:
     -
-        description: 'Displays key:value as per the settings file'
+        description: 'कुंजी प्रदर्शित करता है: सेटिंग फ़ाइल के अनुसार मान'
         execution: "drupal debug:config:settings\n"

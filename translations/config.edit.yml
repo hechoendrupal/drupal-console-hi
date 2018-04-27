@@ -6,11 +6,11 @@ questions:
     config-name: 'एक विन्यास इकाई चुनें'
 messages:
     no-directory: 'डायरेक्टरी बनाते समय यहाँ एक त्रुटि पाया गया'
-    choose-configuration: 'Choose a configuration'
+    choose-configuration: 'एक विन्यास चुनें'
 examples:
     -
-        description: 'Edit system cron configurations with "vim" (default editor).'
+        description: '"vim" (डिफ़ॉल्ट संपादक) के साथ सिस्टम क्रॉन कॉन्फ़िगरेशन संपादित करें.'
         execution: 'drupal config:edit system.cron'
     -
-        description: 'Edit system cron configurations with "gedit".'
+        description: '"gedit" के साथ सिस्टम क्रॉन कॉन्फ़िगरेशन संपादित करें.'
         execution: 'drupal config:edit system.cron gedit'

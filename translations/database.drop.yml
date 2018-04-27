@@ -9,5 +9,5 @@ messages:
     table-drop: 'सफलतापूर्वक "%s" टेबल्स ड्राप'
 examples:
     -
-        description: 'Drop the tables on the database specified on the argument'
+        description: 'तर्क पर निर्दिष्ट डेटाबेस पर टेबल ड्रॉप करें'
         execution: "drupal database:drop \\\n  <database>\n"

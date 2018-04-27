@@ -1,18 +1,18 @@
 options:
-    class: 'Class name'
+    class: 'कक्षा का नाम'
     events: 'घटनाओ को container से लोड करें।'
     module: 'मोड्यूल का नाम।'
-    extension: 'The extension name.'
-    extension-type: 'The extension type.'
+    extension: 'एक्सटेंशन का नाम.'
+    extension-type: 'एक्सटेंशन प्रकार.'
     services: 'सर्विसेज़ को container से लोड करें।'
     tags: 'container से सर्विस टैगो को सेट करें।'
     inputs: 'एक फॉर्म के लिए आदानो को बनाएँ।'
     permissions: 'अनुमतियों को बनाएँ।'
 questions:
-    class: 'Enter the Class name'
+    class: 'कक्षा का नाम दर्ज करें'
     module: 'मोड्यूल का नाम डालें।'
-    extension: 'Enter the extension name'
-    extension-type: 'Enter the extension type'
+    extension: 'एक्सटेंशन नाम दर्ज करें'
+    extension-type: 'एक्सटेंशन प्रकार दर्ज करें'
     confirm: 'क्या आप उत्पन्न की पुष्टि करते हैं।'
     canceled: 'कमाण्ड उत्पन्न रद्द करें।'
     events:
@@ -25,7 +25,7 @@ questions:
     inputs:
         confirm: 'क्या आप फोर्म का खाका उतपन्न करना चाहेंगे?'
         label: 'उप-शीर्षक निवेश करें।'
-        machine-name: 'Input machine name'
+        machine-name: 'इनपुट मशीन का नाम'
         permission: 'क्या आप अनुमतियां उत्पन्न करना चाहते हैं।'
         type: प्रकार
         invalid: 'खाना प्रकार "%s" असामान्य हैं।'

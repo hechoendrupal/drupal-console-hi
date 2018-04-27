@@ -8,10 +8,10 @@ options:
     format: 'आउटपुट फॉर्मेट (txt, xml, json, or md)'
 messages:
     usage: "<comment> प्रयोग:</comment>\n"
-    usage-details: "  command [options] [arguments]\n\n"
+    usage-details: "कमांड [options] [arguments]\n\n"
     arguments: '<comment>आर्ग्यूमेंट्स:</comment>'
     options: '<comment>विकल्प:</comment>'
     help: '<comment>सहायता:</comment>'
     comment: '<comment>"% S" नेमस्पेस के लिए उपलब्ध कमांड:</comment>'
     available-commands: '<comment>उपलब्ध कमांड:</comment>'
-    usage_details: "  कमांड [options] [arguments]\n\n"
+    usage_details: "कमांड [options] [arguments]\n\n"

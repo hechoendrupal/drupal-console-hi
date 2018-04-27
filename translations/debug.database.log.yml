@@ -2,10 +2,10 @@ description: 'एप्लीकेशन के लिए वर्तमान
 arguments:
     event-id: 'DBLog इवेंट आईडी'
 options:
-    asc: 'List events in ascending order'
+    asc: 'आरोही क्रम में घटनाओं की सूची'
     limit: 'एक विशिष्ट संख्या को सीमा परिणाम'
     offset: 'एक सीमा का शुरूआती पॉइंट्स'
-    yml: 'Print in a yml style'
+    yml: 'एक yml शैली में प्रिंट करें'
     type: 'एक विशिष्ट टाइप द्वारा इवेंट्स फ़िल्टर'
     severity: 'गंभीरता का एक विशिष्ट स्तर द्वारा फ़िल्टर इवेंट्स'
     user-id: 'एक विशिष्ट यूजर आईडी के आधार पर फ़िल्टर इवेंट्स'
@@ -20,8 +20,8 @@ messages:
     invalid-severity: 'सेवेरिटी टाइप अमान्य है, फिल्टर को नजरअंदाज कर दिया गया था'
 examples:
     -
-        description: 'List all the entries on the log'
+        description: 'लॉग पर सभी प्रविष्टियों की सूची'
         execution: 'drupal debug:database:log'
     -
-        description: 'List specific log entry by Event ID'
+        description: 'इवेंट आईडी द्वारा विशिष्ट लॉग प्रविष्टि सूचीबद्ध करें'
         execution: "drupal debug:database:log 21228\n"

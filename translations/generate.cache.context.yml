@@ -1,8 +1,8 @@
-description: 'Generate a cache context'
+description: 'एक कैश संदर्भ उत्पन्न करें'
 questions:
-    name: 'Enter the cache context name'
-    class: 'Cache context class name'
+    name: 'कैश संदर्भ नाम दर्ज करें'
+    class: 'कैश संदर्भ वर्ग का नाम'
 examples:
     -
-        description: 'Generate cache for a context specifying the module, the context name and its class'
+        description: 'मॉड्यूल निर्दिष्ट करने के संदर्भ में कैश जेनरेट करें, संदर्भ नाम और इसकी कक्षा'
         execution: "drupal generate:cache:context  \\\n  --module=\"modulename\"  \\\n  --cache-context=\"ContextName\"  \\\n  --class=\"DefaultCacheContext\""

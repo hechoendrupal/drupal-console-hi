@@ -1,9 +1,9 @@
-description: 'Poll the watchdog and print new log entries every x seconds'
+description: 'वॉचडॉग मतदान करें और प्रत्येक x सेकंड में नई लॉग प्रविष्टियां प्रिंट करें'
 arguments:
-    duration: 'Duration in seconds which to sleep between database reads'
+    duration: 'डेटाबेस पढ़ने के बीच सोने के लिए सेकंड में अवधि'
 messages:
-    warning: "Do not use in production environments\nAs this script blocks you are advised to only run it on vm's with multiple cores for performance reasons\nStop this polling mechanism before you clean/truncate the watchdog table!\nQuit with ^C\n"
+    warning: "उत्पादन वातावरण में उपयोग न करें\nइस स्क्रिप्ट ब्लॉक के रूप में आपको सलाह दी जाती है कि इसे प्रदर्शन कारणों से एकाधिक कोर के साथ केवल वीएम पर चलाएं\nवॉचडॉग टेबल को साफ़/छोटा करने से पहले इस मतदान तंत्र को रोकें\nQuit with ^C\n"
 examples:
     -
-        description: 'Print the log entries on screen every x seconds'
+        description: 'प्रत्येक x सेकंड स्क्रीन पर लॉग प्रविष्टियों को मुद्रित करें'
         execution: "drupal database:log:poll \\\n  100\n"

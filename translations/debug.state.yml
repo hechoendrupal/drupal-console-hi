@@ -6,8 +6,8 @@ messages:
     key: 'स्टेट की'
 examples:
     -
-        description: 'List of the states on the site'
+        description: 'साइट पर राज्यों की सूची'
         execution: "drupal debug:state\n"
     -
-        description: 'Displays a detail of the state install_task tok from the list of states'
+        description: 'राज्यों की सूची से राज्य install_task टोक का विवरण दिखाता है'
         execution: "drupal debug:state install_task\n"

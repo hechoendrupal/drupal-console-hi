@@ -8,8 +8,8 @@ errors:
     invalid-mode: 'अमान्य मेंटेनेंस मोड'
 examples:
     -
-        description: 'Switch on maintenance'
+        description: 'रखरखाव पर स्विच करें'
         execution: 'drupal site:maintenance  on'
     -
-        description: 'Switch off maintenance'
+        description: 'रखरखाव बंद करें'
         execution: "drupal site:maintenance  off\n"

@@ -10,5 +10,5 @@ questions:
     restrict-access: 'प्रवेश निषेध'
     add: 'क्या आप एक और अनुमति डालना चाहते हैं'
 suggestions:
-    access-content: 'Access content'
-    allow-access-content: 'Allow access to my content'
+    access-content: 'सामग्री तक पहुंचें'
+    allow-access-content: 'मेरी सामग्री तक पहुंच की अनुमति दें'

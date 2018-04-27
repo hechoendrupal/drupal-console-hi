@@ -1,12 +1,12 @@
-description: 'Display current views plugins for the application'
+description: 'एप्लिकेशन के लिए वर्तमान views प्लगइन्स प्रदर्शित करें'
 arguments:
-    type: 'Filter views plugins by type'
+    type: 'प्रकार के द्वारा फ़िल्टर views प्लगइन्स'
 messages:
-    type: Type
-    name: Name
-    provider: Provider
-    views: Views
+    type: प्रकार
+    name: नाम
+    provider: प्रदाता
+    views: दृश्य
 examples:
     -
-        description: 'List of views plugins'
+        description: 'views प्लगइन्स की सूची'
         execution: "drupal debug:views:plugins\n"

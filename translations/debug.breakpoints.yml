@@ -1,9 +1,9 @@
-description: 'Displays breakpoints available in application'
+description: 'आवेदन में उपलब्ध ब्रेकपॉइंट प्रदर्शित करता है'
 options:
-    group-name: 'Enter Breakpoint Group Name'
+    group-name: 'ब्रेकपॉइंट समूह का नाम दर्ज करें'
 messages:
-    name: 'Extensions with breakpoints'
+    name: 'ब्रेकपॉइंट्स के साथ एक्सटेंशन'
 examples:
     -
-        description: 'Provide a group name.'
+        description: 'समूह का नाम प्रदान करें.'
         execution: 'drupal breakpoints:debug bartik'

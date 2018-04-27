@@ -2,8 +2,8 @@ description: 'एक व्यू चालू करें'
 messages: null
 examples:
     -
-        description: 'Enable content view'
+        description: 'सामग्री दृश्य सक्षम करें'
         execution: "drupal views:enable  content\n"
     -
-        description: 'Enable frontpage view'
+        description: 'फ्रंट पेज दृश्य सक्षम करें'
         execution: "drupal views:enable  frontpage\n"

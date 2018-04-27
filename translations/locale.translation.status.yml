@@ -15,4 +15,4 @@ messages:
     local-file-not-found: 'फ़ाइल यहा नही मिली "%s"'
     translation-not-determined: 'अनुवाद फ़ाइल स्थान निर्धारित नहीं किया जा सकता है।'
     translation-project-updated: अपडेटेड
-    translation-project-available: 'New translation available'
+    translation-project-available: 'नया अनुवाद उपलब्ध है'
