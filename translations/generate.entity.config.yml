@@ -16,5 +16,5 @@ questions:
     base-path: 'कॉन्फिग एंटिटी रुट्स के लिए बेस पथ दर्ज करे'
 examples:
     -
-        description: 'Generate config entity specifying the module, the entity class, the entity name, its path and label'
+        description: 'मॉड्यूल, इकाई वर्ग, इकाई का नाम, उसका पथ और लेबल निर्दिष्ट करने वाली कॉन्फ़िगरेशन इकाई उत्पन्न करें'
         execution: "drupal generate:entity:config  \\\n  --module=\"modulename\"  \\\n  --entity-class=\"DefaultEntity\"  \\\n  --entity-name=\"default_entity\"  \\\n  --base-path=\"/admin/structure\"  \\\n  --label=\"Default entity\""

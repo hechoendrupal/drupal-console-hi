@@ -1,10 +1,10 @@
-description: 'Returns the relative path to the module (or absolute path)'
+description: 'मॉड्यूल (या पूर्ण पथ) के सापेक्ष पथ देता है'
 arguments:
-    module: 'The Module name (machine name)'
+    module: 'मॉड्यूल नाम (मशीन का नाम)'
 options:
-    absolute: 'Return module absolute path'
+    absolute: 'वापसी मॉड्यूल पूर्ण पथ'
 messages: null
 examples:
     -
-        description: 'Get the relative path of the module specifying the module name'
+        description: 'मॉड्यूल नाम निर्दिष्ट मॉड्यूल के सापेक्ष पथ प्राप्त करें'
         execution: "drupal module:path  modulename\n"

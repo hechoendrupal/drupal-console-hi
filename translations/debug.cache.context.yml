@@ -1,9 +1,9 @@
-description: 'Displays current cache context for the application.'
+description: 'एप्लिकेशन के लिए वर्तमान कैश संदर्भ प्रदर्शित करता है.'
 messages:
-    code: 'Context ID'
-    label: Label
-    class: 'Class path'
+    code: 'संदर्भ आईडी'
+    label: लेबल
+    class: 'कक्षा पथ'
 examples:
     -
-        description: 'Displays cache context'
+        description: 'कैश संदर्भ प्रदर्शित करता है'
         execution: "drupal debug:cache:context\n"

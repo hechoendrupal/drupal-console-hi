@@ -3,11 +3,11 @@ messages:
     module-invalid: 'मोड्यूल "%s" क्रॉन लागू नही कर रहा'
     executing-cron: 'मोड्यूल "%s" का क्रॉन फंक्शन चल रहा है'
     success: 'सभी क्रॉन इम्प्लीमेंटेशन अनुरोध को सफलतापूर्वक एक्सेक्युट कर दिया गया'
-    lock: 'Attempting to re-run cron while it is already running'
+    lock: 'क्रॉन को फिर से चलाने के लिए प्रयास कर रहा है जबकि यह पहले से चल रहा है'
 examples:
     -
-        description: 'Execute the cron globally'
+        description: 'वैश्विक स्तर पर क्रॉन निष्पादित करें'
         execution: "drupal cron:execute\n"
     -
-        description: 'Execute the cron on the specified module'
+        description: 'निर्दिष्ट मॉड्यूल पर क्रॉन निष्पादित करें'
         execution: "drupal cron:execute \\\n  <module>\n"

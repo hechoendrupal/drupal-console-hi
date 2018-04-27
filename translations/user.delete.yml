@@ -17,8 +17,8 @@ errors:
     invalid-user: 'यूजर आईडी "%s" अवैध है'
 examples:
     -
-        description: 'Delete user specifying the id and the user role'
+        description: 'आईडी और उपयोगकर्ता भूमिका निर्दिष्ट उपयोगकर्ता हटाएं'
         execution: "drupal user:delete  \\\n  --user-id=\"2\"\n  --roles='authenticated'"
     -
-        description: 'Delete user specifying its id'
+        description: 'उपयोगकर्ता को अपनी आईडी निर्दिष्ट करें हटाएं'
         execution: "drupal user:delete  \\\n  --user-id=\"3\"\n"

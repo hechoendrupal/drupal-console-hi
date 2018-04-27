@@ -1,9 +1,9 @@
-description: 'Display the queues of your application'
+description: 'अपने आवेदन की कतार प्रदर्शित करें'
 messages:
-    queue: Queue
-    items: Items
-    class: Class
+    queue: कतार
+    items: आइटम
+    class: कक्षा
 examples:
     -
-        description: 'Displays the queues of the application'
+        description: 'आवेदन की कतार प्रदर्शित करता है'
         execution: "drupal debug:queue\n"

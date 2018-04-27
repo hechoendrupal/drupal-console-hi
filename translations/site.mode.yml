@@ -2,7 +2,7 @@ description: 'प्रणाली की कार्य-निष्पाद
 arguments:
     environment: 'एनवायरनमेंट नाम (dev|prod)'
 options:
-    local: 'Use this option for testing PROD config, but using settings.local.php for connect to your local environment'
+    local: 'PROD कॉन्फ़िगरेशन का परीक्षण करने के लिए इस विकल्प का उपयोग करें, लेकिन अपने स्थानीय वातावरण से कनेक्ट करने के लिए settings.local.php का उपयोग करना'
 messages:
     configuration: 'व्यवस्था का नाम'
     configuration-key: 'व्यवस्था की कुंजी'
@@ -18,8 +18,8 @@ messages:
     services-file-overwritten: 'सर्विसेज "%s" फ़ाइल ओवरराइट था'
 examples:
     -
-        description: 'Switch system to prod'
+        description: 'सिस्टम को prod पर स्विच करें'
         execution: 'drupal site:mode  prod'
     -
-        description: 'Switch system to dev'
+        description: 'सिस्टम को dev पर स्विच करें'
         execution: "drupal site:mode  dev\n"

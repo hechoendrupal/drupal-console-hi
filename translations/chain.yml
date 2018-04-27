@@ -2,21 +2,21 @@ description: 'कमाण्डो को श्रंखला में च�
 options:
     file: 'कमाण्ड युक्त उपभोक्ता परिभाषित फ़ाइल चलाने करने के लिए।'
 questions:
-    chain-file: 'Select chain file to execute'
+    chain-file: 'निष्पादित करने के लिए श्रृंखला फ़ाइल का चयन करें'
 messages:
-    missing-file: 'You must provide a valid file path and name.'
-    invalid-file: 'The file "%s" does not exist.'
-    module-install: 'module:install command is not runnable inside a chain queue and must be run independently.'
-    missing-environment-placeholders: 'Missing environment placeholder(s) "%s"'
-    set-environment-placeholders: 'Set environment placeholders as:'
-    missing-inline-placeholders: 'Missing inline placeholder(s) "%s"'
-    set-inline-placeholders: 'Pass inline placeholders as:'
-    select-value-for-placeholder: 'Select value for %s placeholder'
-    enter-value-for-placeholder: 'Enter value for %s placeholder'
+    missing-file: 'आपको एक वैध फ़ाइल पथ और नाम प्रदान करना होगा.'
+    invalid-file: 'फ़ाइल "%s" मौजूद नहीं है.'
+    module-install: 'module:install आदेश एक श्रृंखला कतार के अंदर चलाने योग्य नहीं है और इसे स्वतंत्र रूप से चलाया जाना चाहिए.'
+    missing-environment-placeholders: 'गुम पर्यावरण प्लेसहोल्डर "%s"'
+    set-environment-placeholders: 'पर्यावरण प्लेसहोल्डर्स को सेट करें:'
+    missing-inline-placeholders: 'इनलाइन प्लेसहोल्डर गुम है "%s"'
+    set-inline-placeholders: 'इनलाइन प्लेसहोल्डर्स को पास करें:'
+    select-value-for-placeholder: '%s प्लेसहोल्डर के लिए मान का चयन करें'
+    enter-value-for-placeholder: '%s प्लेसहोल्डर के लिए मान दर्ज करें'
     missing_file: 'आपको एक वैध फ़ाइल पथ और नाम प्रदान करना होगा।'
     invalid_file: 'फ़ाइल "%s" मौजूद नहीं है।'
     module_install: 'module:install कमाण्ड श्रृंखला कतार के अंदर नहीं चलेगा और इसे अलग चलना पड़ेगा।'
 examples:
     -
-        description: 'Providing a file option using full path.'
+        description: 'पूर्ण पथ का उपयोग कर एक फ़ाइल विकल्प प्रदान करना.'
         execution: "drupal chain \\\n  --file=\"/path/to/file/chain-file.yml\"\n"

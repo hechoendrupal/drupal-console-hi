@@ -1,19 +1,19 @@
 description: 'एक दिए गए डेटाबेस में सभी टेबल्स दिखाएँ.'
 help: '<info>database:table:debug</info> कमांड आप को डेटाबेस टेबल्स डिबग करने में मदद करता है।'
 arguments:
-    table: 'Table to debug'
-    database: 'Settings.php से डाटाबेस कुंज'
+    table: 'डीबग करने के लिए टेबल'
+    database: 'settings.php से डाटाबेस कुंज'
 options:
-    database: 'Database key from settings.php'
+    database: 'settings.php से डेटाबेस कुंजी'
 messages:
     table-show: '"%s" डेटाबेस के लिए टेबल दिखाओ'
     table: टेबल
-    column: Column
-    type: Type
+    column: स्तंभ
+    type: प्रकार
 examples:
     -
-        description: 'Show all tables on a database'
+        description: 'डेटाबेस पर सभी टेबल दिखाएं'
         execution: 'drupal debug:database:table'
     -
-        description: 'Show fields on the node table or another specified on the argument'
+        description: 'नोड तालिका पर फ़ील्ड दिखाएं या तर्क पर निर्दिष्ट कोई अन्य'
         execution: "drupal debug:database:table node\n"

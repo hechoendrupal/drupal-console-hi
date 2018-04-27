@@ -9,3 +9,6 @@ questions:
     description: 'अनुमति का विवरण दर्ज करें'
     restrict-access: 'प्रवेश निषेध'
     add: 'क्या आप एक और अनुमति डालना चाहते हैं'
+suggestions:
+    access-content: 'सामग्री तक पहुंचें'
+    allow-access-content: 'मेरी सामग्री तक पहुंच की अनुमति दें'

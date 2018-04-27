@@ -18,15 +18,17 @@ questions:
     account-name: 'अपने Drupal व्यवस्थापक खाते नाम प्रदान करें'
     account-mail: 'अपने Drupal व्यवस्थापक खाते मेल प्रदान करें'
     account-pass: 'अपने Drupal व्यवस्थापक खाते का पासवर्ड प्रदान करें'
+suggestions:
+    site-name: 'मेरी बहुत बढ़िया साइट'
 messages:
     installing: 'Drupal 8 स्थापित करने की प्रक्रिया शुरू'
     installed: 'अपने Drupal 8 स्थापना सफलतापूर्वक पूरा कर लिया गया'
     using-current-database: 'नाम  "%s" और उपयोगकर्ता  "%s" के साथ  "%s" डेटाबेस का प्रयोग'
     already-installed: 'Drupal पहले से ही स्थापित किया गया है, तो अपने डेटाबेस को truncate करे और फिर site:install चलाऐ'
-    sites-backup: 'The sites.php file has temporarily been renamed to backup.sites.php while Drupal installs.'
-    sites-restore: 'The backup of sites.php has been been restored to sites.php.'
-    invalid-multisite: 'Invalid multisite, please create multisite using command drupal multisite:new %s "%s"'
+    sites-backup: 'Drupal इंस्टॉल करते समय sites.php फ़ाइल को अस्थायी रूप से backup.sites.php में बदल दिया गया है.'
+    sites-restore: 'Sites.php का बैकअप sites.php पर बहाल कर दिया गया है.'
+    invalid-multisite: 'अमान्य मल्टीसाइट, कृपया कमांड का उपयोग करके मल्टीसाइट बनाएं drupal multisite:new %s "%s"'
 examples:
     -
-        description: 'Install a drupal project specifying installation type, language code, database configuration, site name, site email and admin credential settings'
+        description: 'स्थापना प्रकार, भाषा कोड, डेटाबेस कॉन्फ़िगरेशन, साइट का नाम, साइट ईमेल और व्यवस्थापक क्रेडेंशियल सेटिंग्स निर्दिष्ट एक Drupal प्रोजेक्ट स्थापित करें'
         execution: "drupal site:install  standard  \\\n  --langcode=\"en\"  \\\n  --db-type=\"mysql\"  \\\n  --db-host=\"127.0.0.1\"  \\\n  --db-name=\"drupal8\"  \\\n  --db-user=\"u53rn4m3\"  \\\n  --db-pass=\"dbp455\"  \\\n  --db-port=\"3306\"  \\\n  --site-name=\"Drupal 8\"  \\\n  --site-mail=\"admin@example.com\"  \\\n  --account-name=\"admin\"  \\\n  --account-mail=\"admin@example.com\"  \\\n  --account-pass=\"p455w0rd\"\n"

@@ -13,5 +13,5 @@ questions:
     label: 'प्लगिन प्रकार उप-शीर्षक दर्ज करें'
 examples:
     -
-        description: 'Generate a plugin with annotation discovery specifying module name, class name, machine name and label'
+        description: 'मॉड्यूल नाम, कक्षा का नाम, मशीन का नाम और लेबल निर्दिष्ट करने वाली एनोटेशन डिस्कवरी के साथ एक प्लगइन जेनरेट करें'
         execution: "drupal generate:plugin:type:annotation  \\\n  --module=\"modulename\"  \\\n  --class=\"ExamplePlugin\"  \\\n  --machine-name=\"example_plugin\"  \\\n  --label=\"Example plugin\"\n"

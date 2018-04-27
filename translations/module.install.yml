@@ -27,11 +27,11 @@ messages:
     no-releases: 'मॉड्यूल "%s" के लिए कोई भी रिलीज नहीं कर रहे हैं '
     installing: 'इंस्टॉलिंग मॉडल(स) "%s"'
     composer: 'कंपोजर के साथ मॉड्यूल सफलतापूर्वक स्थापित किया गया था'
-    error-creating-folder: 'Error creating folder "%s", please check your permissions'
-    download-with-composer: 'Module %s was downloaded with Composer.'
-    not-installed-with-composer: 'Module %s seems not to be installed with Composer. Halting.'
-    invalid-name: 'Invalid module name: %s'
+    error-creating-folder: 'फ़ोल्डर "%s" बनाने में त्रुटि, कृपया अपनी अनुमतियों की जांच करें'
+    download-with-composer: 'मॉड्यूल %s composer के साथ डाउनलोड किया गया था.'
+    not-installed-with-composer: 'मॉड्यूल% s composer के साथ स्थापित नहीं है प्रतीत होता है। से बचाते हैं।'
+    invalid-name: 'अमान्य मॉड्यूल नाम: %s'
 examples:
     -
-        description: 'Install module specifying the module name'
+        description: 'मॉड्यूल नाम निर्दिष्ट मॉड्यूल स्थापित करें'
         execution: "drupal module:install  modulename\n"

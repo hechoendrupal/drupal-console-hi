@@ -1,11 +1,11 @@
-description: 'Delete taxonomy terms from a vocabulary'
-vid: 'Enter vocabulary id'
-help: 'This command takes the VID as argument or all which will delete every term from every vocabulary'
+description: 'शब्दावली से वर्गीकरण शर्तों को हटाएं'
+vid: 'शब्दावली आईडी दर्ज करें'
+help: 'यह आदेश VID को तर्क के रूप में लेता है या जो सभी शब्दावली से प्रत्येक शब्द को हटा देगा'
 messages:
-    nothing: 'All taxonomy terms from "%s" vocabulary already deleted.'
-    processing: 'Deleting "%s" taxonomy term.'
-    invalid-vocabulary: 'Invalid "%s" vocabulary.'
+    nothing: '"%s" शब्दावली से सभी वर्गीकरण शर्तें पहले ही हटा दी गई हैं.'
+    processing: '"%s" वर्गीकरण अवधि को हटा रहा है.'
+    invalid-vocabulary: 'अवैध "%s" शब्दावली.'
 examples:
     -
-        description: 'Delete all terms of the "tags" vocabulary'
+        description: '"टैग" शब्दावली की सभी शर्तें हटाएं'
         execution: "drupal taxonomy:term:delete  tags\n"

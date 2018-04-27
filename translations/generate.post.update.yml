@@ -1,13 +1,13 @@
-description: 'Generate an implementation of hook_post_update_NAME()'
-help: 'The <info>"%s"</info> command helps you generate a hook post update NAME "%s"'
+description: 'hook_post_update_NAME() के कार्यान्वयन को उत्पन्न करें'
+help: '<info>"%s"</info> कमांड आपको एक hook post update NAME "%s" उत्पन्न करने में मदद करता है'
 options:
-    post-update-name: 'Post Update Name'
+    post-update-name: 'पोस्ट अपडेट नाम'
 questions:
-    post-update-name: 'Please provide the Post Update Name to be implemeted'
+    post-update-name: 'कृपया अद्यतन अद्यतन नाम लागू करने के लिए प्रदान करें'
 messages:
-    wrong-post-update-name: 'The post update name "%s" is invalid'
-    post-update-name-already-implemented: 'The post update name "%s" was already implemented'
+    wrong-post-update-name: 'पोस्ट अपडेट नाम "%s" अमान्य है'
+    post-update-name-already-implemented: 'पोस्ट अपडेट नाम "%s" पहले ही लागू किया गया था'
 examples:
     -
-        description: 'Generate an implementation of post update hook specifying the module name and the post update name'
+        description: 'मॉड्यूल नाम और पोस्ट अपडेट नाम निर्दिष्ट करने वाले पोस्ट अपडेट हुक के कार्यान्वयन को उत्पन्न करें'
         execution: "drupal generate:post:update  \\\n  --module=\"modulename\"  \\\n  --post-update-name=\"PostUpdateName\"\n"

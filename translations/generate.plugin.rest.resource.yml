@@ -19,5 +19,5 @@ messages:
     selected-states: 'स्थिति चयनित'
 examples:
     -
-        description: 'Generate a rest resource plugin using GET specifying the module name, the class, the plugin id, its label, the target url and the request type'
+        description: 'मॉड्यूल नाम, कक्षा, प्लगइन आईडी, इसके लेबल, लक्ष्य यूआरएल और अनुरोध प्रकार निर्दिष्ट करने के लिए GET का उपयोग कर एक बाकी संसाधन प्लगइन उत्पन्न करें'
         execution: "drupal generate:plugin:rest:resource  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultRestResource\"  \\\n  --plugin-id=\"default_rest_resource\"  \\\n  --plugin-label=\"Default rest resource\"  \\\n  --plugin-url=\"http://rest.resources.example.com\"  \\\n  --plugin-states='GET'\n"

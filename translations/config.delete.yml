@@ -1,22 +1,22 @@
-description: 'Delete configuration'
+description: 'कॉन्फ़िगरेशन हटाएं'
 arguments:
-    type: 'Configuration type.'
-    name: 'Configuration name.'
+    type: 'विन्यास प्रकार.'
+    name: 'कॉन्फ़िगरेशन नाम.'
 messages:
-    all: 'All configuration sucessfully deleted.'
-    deleted: 'Configuration "%s" sucessfully deleted.'
-    name: 'Configuration name must contain a value.'
-    not-exists: 'The configuration "%s" does not exists.'
+    all: 'सभी विन्यास सफलतापूर्वक हटा दिया गया.'
+    deleted: 'विन्यास "%s" सफलतापूर्वक हटा दिया गया.'
+    name: 'कॉन्फ़िगरेशन नाम में एक मान होना चाहिए.'
+    not-exists: 'विन्यास "%s" मौजूद नहीं है.'
 errors:
-    config-storage: 'Configuration type would not be loaded.'
-    name: 'Configuration name must contain a value.'
-    type: 'Configuration type is missing.'
-    not-exists: 'The configuration "%s" does not exists.'
+    config-storage: 'कॉन्फ़िगरेशन प्रकार लोड नहीं किया जाएगा.'
+    name: 'कॉन्फ़िगरेशन नाम में एक मान होना चाहिए.'
+    type: 'कॉन्फ़िगरेशन प्रकार गुम है.'
+    not-exists: 'विन्यास "%s" मौजूद नहीं है.'
 warnings:
-    undo: 'This action will delete all configuration permanentaly.'
+    undo: 'यह क्रिया सभी कॉन्फ़िगरेशन स्थायीता को हटा देगी.'
 questions:
-    sure: 'Are you sure to delete all configuration'
+    sure: 'क्या आप सभी विन्यास को हटाना सुनिश्चित कर रहे हैं'
 examples:
     -
-        description: 'Provide a config type and a config name'
+        description: 'एक विन्यास प्रकार और एक विन्यास नाम प्रदान करें'
         execution: 'drupal config:delete active all'

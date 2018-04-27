@@ -1,19 +1,19 @@
 description: 'अनुप्रयोग में मॉड्यूल की स्थापित रद्द करें |'
 questions:
-    module: 'Enter module name'
-    invalid-module: 'Invalid module "%s"'
+    module: 'मॉड्यूल नाम दर्ज करें'
+    invalid-module: 'अमान्य मॉड्यूल "%s"'
 options:
     module: 'रद्द किए जाने मॉड्यूल को अल्पवीराम से अलग करें |'
-    force: 'Do you want to ignore dependencies and forcefully uninstall the module?'
-    composer: 'Uninstalls the module using Composer'
+    force: 'क्या आप निर्भरताओं को अनदेखा करना चाहते हैं और मॉड्यूल को बलपूर्वक अनइंस्टॉल करना चाहते हैं?'
+    composer: 'composer का उपयोग कर मॉड्यूल को अनइंस्टॉल करता है'
 messages:
     no-modules: 'स्थापना रद्द करने के लिए मॉड्यूल प्रदान करें |'
     dependents: 'मोड्यूल "%s" स्थापित नही हो पाया क्यों की यह इन पे "%s" निर्भर है'
     nothing: 'कुछ नहीं करना। सारे मोड्यूल पेहले से स्थापित नही है'
     success: 'निम्नलिखित मोड्यूलो "%s" को सफलतापूर्वक निष्कासन कर दिया गया'
     missing: '"%s" मॉड्यूल इनस्टॉल करने में असमर्थ, "%s" मॉड्यूल के लिए कारण मिसिंग'
-    composer-success: 'The folowing module(s) were removed from Composer: "%s"'
+    composer-success: 'निम्नलिखित मॉड्यूल composer से हटा दिए गए थे: "%s"'
 examples:
     -
-        description: 'Uninstall the module specifying the module name'
+        description: 'मॉड्यूल नाम निर्दिष्ट मॉड्यूल अनइंस्टॉल करें'
         execution: "drupal module:uninstall  modulename\n"

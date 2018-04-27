@@ -8,5 +8,5 @@ messages:
     connection: 'कनेक्शन: "%s"'
 examples:
     -
-        description: 'Connects to an specified database, or the default if not arguments passed'
+        description: 'एक निर्दिष्ट डेटाबेस से कनेक्ट होता है, या डिफ़ॉल्ट अगर तर्क पारित नहीं किया जाता है'
         execution: "drupal database:connect \\\n  <database>\n"

@@ -15,5 +15,5 @@ questions:
     field-type: 'दर्ज करें खाना प्रकार प्लगिन इस्तेमाल किया जा सकता'
 examples:
     -
-        description: 'Generate a text type field widget plugin specifying the module name, the class, its label, the plugin id and the field type'
+        description: 'मॉड्यूल नाम, कक्षा, इसके लेबल, प्लगइन आईडी और फ़ील्ड प्रकार निर्दिष्ट करने वाला एक टेक्स्ट प्रकार फ़ील्ड विजेट प्लगइन जेनरेट करें'
         execution: "drupal generate:plugin:fieldwidget  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleFieldWidget\"  \\\n  --label=\"Example field widget\"  \\\n  --plugin-id=\"example_field_widget\"  \\\n  --field-type=\"text\"\n"

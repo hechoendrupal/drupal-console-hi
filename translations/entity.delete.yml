@@ -1,15 +1,15 @@
-description: 'Delete an specific entity'
-help: 'The <info>entity:delete</info> command helps you delete entities.'
+description: 'एक विशिष्ट इकाई हटाएं'
+help: '<info>entity:delete</info> कमांड आपको इकाइयों को हटाने में मदद करता है.'
 arguments:
-    entity-definition-id: 'Entity definition id'
-    entity-id: 'Entity ID to be deleted'
+    entity-definition-id: 'इकाई परिभाषा आईडी'
+    entity-id: 'हटाए जाने के लिए इकाई आईडी'
 questions:
-    entity-type: 'Enter the Entity type'
-    entity-definition-id: 'Enter the  Entity definitin id'
-    entity-id: 'Enter the  Entity ID to be deleted'
+    entity-type: 'इकाई प्रकार दर्ज करें'
+    entity-definition-id: 'इकाई परिभाषा आईडी दर्ज करें'
+    entity-id: 'हटाए जाने के लिए इकाई आईडी दर्ज करें'
 messages:
-    deleted: 'Entity %s with id %s was deleted successfully'
+    deleted: 'आईडी %s के साथ इकाई %s सफलतापूर्वक हटा दी गई थी'
 examples:
     -
-        description: 'Delete entity type content using node id'
+        description: 'नोड आईडी का उपयोग कर इकाई प्रकार सामग्री हटाएं'
         execution: 'drupal entity:delete node 1'

@@ -1,13 +1,13 @@
-description: 'Displays libraries available in application'
+description: 'आवेदन में उपलब्ध पुस्तकालय प्रदर्शित करता है'
 options:
-    name: 'Enter Libraries Name'
+    name: 'पुस्तकालय नाम दर्ज करें'
 messages:
-    name: 'Extension with Libraries'
-    info: 'Libraries Information'
+    name: 'पुस्तकालयों के साथ विस्तार'
+    info: 'पुस्तकालय की जानकारी'
 examples:
     -
-        description: 'List all available libraries'
+        description: 'सभी उपलब्ध पुस्तकालयों की सूची'
         execution: "drupal debug:libraries\n"
     -
-        description: 'List block library information'
+        description: 'सूची ब्लॉक पुस्तकालय की जानकारी'
         execution: "drupal debug:libraries block\n"

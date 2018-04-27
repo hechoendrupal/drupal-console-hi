@@ -13,5 +13,5 @@ message:
     error-state1: स्थानधारक
 examples:
     -
-        description: 'Generate bundle entity specifying the module, the bundle name and its title'
+        description: 'मॉड्यूल, बंडल नाम और इसके शीर्षक को निर्दिष्ट बंडल इकाई उत्पन्न करें'
         execution: "drupal generate:entity:bundle  \\\n  --module=\"modulename\"  \\\n  --bundle-name=\"default\"  \\\n  --bundle-title=\"default\""

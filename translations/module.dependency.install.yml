@@ -1,11 +1,11 @@
-description: 'Install dependencies module in the application'
+description: 'आवेदन में निर्भरता मॉड्यूल स्थापित करें'
 arguments:
-    module: 'Module or modules to be enabled should be separated by a space'
+    module: 'सक्षम होने के लिए मॉड्यूल या मॉड्यूल को एक स्थान से अलग किया जाना चाहिए'
 messages:
-    no-depencies: 'Nothing to do. This modules has not dependencies to install'
-    installing: 'Installing module(s) "%s"'
-    success: 'The following module(s) were installed successfully: "%s"'
+    no-depencies: 'कुछ करने को नहीं है। इस मॉड्यूल में स्थापित करने के लिए निर्भरता नहीं है'
+    installing: 'मॉड्यूल स्थापित करना "%s"'
+    success: 'निम्नलिखित मॉड्यूल सफलतापूर्वक स्थापित किए गए थे: "%s"'
 examples:
     -
-        description: 'Install the dependencies of the specfied module'
+        description: 'निर्दिष्ट मॉड्यूल की निर्भरताओं को स्थापित करें'
         execution: "drupal module:dependency:install  modulename\n"

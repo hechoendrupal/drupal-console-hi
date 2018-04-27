@@ -1,9 +1,9 @@
-description: 'Applying Entity Updates'
+description: 'इकाई अद्यतन लागू करना'
 messages:
-    start: 'Starting the entity updates'
-    end: 'Finished the entity updates'
-    error: 'Error on Entity Updates'
+    start: 'इकाई अद्यतन शुरू करना'
+    end: 'इकाई अद्यतन समाप्त किया'
+    error: 'इकाई अपडेट पर त्रुटि'
 examples:
     -
-        description: 'Update entities'
+        description: 'अद्यतन संस्थाएं'
         execution: "drupal update:entities\n"

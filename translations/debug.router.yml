@@ -7,13 +7,13 @@ messages:
     route: रूट
     path: 'क्लास का पथ'
     defaults: डिफ़ॉल्ट
-    requirements: Requirements
+    requirements: आवश्यकताएँ
     options: विकल्प
     pattern: साँचा
 examples:
     -
-        description: 'Displays current routes for the application'
+        description: 'आवेदन के लिए वर्तमान मार्ग प्रदर्शित करता है'
         execution: 'drupal rod'
     -
-        description: 'Displays details for the route user.page (/user)'
+        description: 'मार्ग user.page(/user) के लिए विवरण प्रदर्शित करता है'
         execution: 'drupal rod user.page'

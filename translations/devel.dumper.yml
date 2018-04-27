@@ -1,0 +1,7 @@
+messages:
+    change-devel-dumper-plugin: 'Devel डम्पर प्लगइन बदलें'
+    name-devel-dumper-plugin: 'Devel डम्पर प्लगइन का नाम'
+    devel-must-be-installed: 'Devel स्थापित किया जाना चाहिए'
+    select-debug-dumper: 'एक डीबग डम्पर का चयन करें'
+    dumper-not-exist: 'डम्पर मौजूद नहीं है'
+    devel-dumper-set: 'Devel डम्पर सेट:%s'

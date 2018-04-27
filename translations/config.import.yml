@@ -1,19 +1,19 @@
 description: 'वर्तमान अनुप्रयोग में व्यवस्था आयात करें।'
 options:
-    file: 'Path to an archive file of configuration to import.'
-    directory: 'Path to a directory of configuration to import.'
-    remove-files: 'Remove files after synchronization.'
+    file: 'आयात करने के लिए कॉन्फ़िगरेशन की एक संग्रह फ़ाइल के लिए पथ.'
+    directory: 'आयात करने के लिए विन्यास की निर्देशिका के लिए पथ.'
+    remove-files: 'सिंक्रनाइज़ेशन के बाद फ़ाइलों को हटा दें.'
 messages:
     config_files_imported: 'व्यवस्था फाइलों कि सूचि।'
     imported: 'सारे समाकृत फाइलो को स्टेजिंग डायरेक्टरी में प्रतिरूप और आयात कर दिया गया है।'
-    importing: 'Importing configuration.'
-    already-imported: 'Another request may be synchronizing configuration already.'
-    nothing-to-do: 'There are no changes to import.'
+    importing: 'विन्यास आयात कर रहा है.'
+    already-imported: 'एक और अनुरोध पहले से ही विन्यास सिंक्रनाइज़ कर सकता है.'
+    nothing-to-do: 'आयात करने में कोई बदलाव नहीं है.'
     copied: 'सारे समाकृत फाइलो को स्टेजिंग डायरेक्टरी में प्रतिरूप कर दिया गया है।'
 examples:
     -
-        description: 'Provide a configuration file'
+        description: 'एक विन्यास फाइल प्रदान करें'
         execution: "drupal config:import \\\n  --file=/path/to/config/file"
     -
-        description: 'Provide a configuration directory'
+        description: 'एक विन्यास निर्देशिका प्रदान करें'
         execution: "drupal config:import  \\\n  --directory=/path/to/config/dir\n"

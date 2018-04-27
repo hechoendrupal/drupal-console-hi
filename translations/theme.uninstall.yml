@@ -20,5 +20,5 @@ messages:
     error-admin-theme: '"%s" व्यवस्थापक विषय है और इसकी स्थापना रद्द नहीं किया जा सकता'
 examples:
     -
-        description: 'Uninstall theme specifying the name'
+        description: 'नाम निर्दिष्ट करने वाली थीम अनइंस्टॉल करें'
         execution: "drupal theme:uninstall  mytheme\n"

@@ -1,33 +1,33 @@
 description: 'yml फाइल के रूप में सिंगल कॉन्फ़िगरेशन एक्सपोर्ट करे।'
 arguments:
-    name: 'Configuration name.'
+    name: 'कॉन्फ़िगरेशन नाम.'
     config-name: 'कॉन्फ़िगरेशन नाम'
 options:
     include-dependencies: 'कॉन्फ़िगरेशन का निर्भरता के रूप में अच्छी तरह से एक्सपोर्ट करे।'
     simple-configuration: 'सरल कॉन्फ़िगरेशन'
-    optional: 'Export config as an optional YAML configuration in your module'
-    remove-uuid: 'If set, the configuration will be exported without uuid key.'
-    remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
-    optional-config: 'Export config as an optional YAML configuration in your module'
+    optional: 'अपने मॉड्यूल में एक वैकल्पिक YAML विन्यास के रूप में निर्यात विन्यास'
+    remove-uuid: 'यदि सेट किया गया है, तो विन्यास uuid कुंजी के बिना निर्यात किया जाएगा.'
+    remove-config-hash: 'यदि सेट किया गया है, तो कॉन्फ़िगरेशन डिफ़ॉल्ट साइट हैश कुंजी के बिना निर्यात किया जाएगा.'
+    optional-config: 'अपने मॉड्यूल में एक वैकल्पिक YAML विन्यास के रूप में निर्यात विन्यास'
 questions:
     config-type: 'कॉन्फ़िगरेशन टाइप'
-    name: 'Configuration name'
-    optional: 'Export config in module as an optional configuration'
-    remove-uuid: 'Do you want to remove the uuid from this export'
-    remove-config-hash: 'Do you want to remove the default site hash from this export'
+    name: 'कॉन्फ़िगरेशन नाम'
+    optional: 'वैकल्पिक कॉन्फ़िगरेशन के रूप में मॉड्यूल में कॉन्फ़िगरेशन निर्यात करें'
+    remove-uuid: 'क्या आप इस निर्यात से यूयूआईडी को हटाना चाहते हैं'
+    remove-config-hash: 'क्या आप इस निर्यात से डिफ़ॉल्ट साइट हैश को हटाना चाहते हैं'
     config-name: 'कॉन्फ़िगरेशन नाम'
-    optional-config: 'Export config in module as an optional configuration'
+    optional-config: 'वैकल्पिक कॉन्फ़िगरेशन के रूप में मॉड्यूल में कॉन्फ़िगरेशन निर्यात करें'
 messages:
     config-not-found: 'कॉन्फ़िगरेशन नाम नहीं मिला।'
     export: 'कॉन्फ़िगरेशन फ़ाइल "%s" में एक्सपोर्ट किया गया।'
     invalid-config-type: 'अमान्य कॉन्फिग टाइप, कृपया सूची में से एक का चयन करें'
     invalid-config-name: 'अमान्य कॉन्फिग नाम, कृपया सूची में से एक का चयन करें'
-    config-exported: 'Configuration(s) exported sucessfully'
-    config_exported: 'Configuration(s) exported sucessfully'
+    config-exported: 'विन्यास (एस) सफलतापूर्वक निर्यात किया'
+    config_exported: 'विन्यास (एस) सफलतापूर्वक निर्यात किया'
 examples:
     -
-        description: 'Provide config settings name to be exported'
+        description: 'निर्यात करने के लिए कॉन्फ़िगरेशन सेटिंग्स नाम प्रदान करें'
         execution: "drupal config:export:single \\\n  --name=config.settings.name"
     -
-        description: 'if uuid and/or config hashes will be removed.'
+        description: 'अगर यूयूआईडी और/या कॉन्फ़िगर हैश हटा दिए जाएंगे.'
         execution: "drupal config:export:single \\\n  --name=config.settings.name \\\n  --remove-uuid \\\n  --remove-config-hash\n"

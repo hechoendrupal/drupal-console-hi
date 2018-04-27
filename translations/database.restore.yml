@@ -9,5 +9,5 @@ messages:
 help: 'पुनर्स्थापित संरचना और एक डेटाबेस की सामग्री।'
 examples:
     -
-        description: 'Restore the database file dump to the database default or another one specified'
+        description: 'डेटाबेस फ़ाइल डंप को डेटाबेस डिफ़ॉल्ट या किसी अन्य निर्दिष्ट पर पुनर्स्थापित करें'
         execution: "drupal database:restore \\\n  --file='/srv/dump/db.sql'\n"

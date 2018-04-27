@@ -13,8 +13,8 @@ options:
     include-module-dependencies: 'मॉड्यूल इन्फो YAML फाइल में व्यू मॉड्यूल निर्भरता को शामिल करें'
 examples:
     -
-        description: 'Provide a view id'
+        description: 'एक दृश्य आईडी प्रदान करें'
         execution: 'drupal config:export:view viewid'
     -
-        description: 'You can provide the interactive values like parameter.'
+        description: 'आप पैरामीटर जैसे इंटरैक्टिव मान प्रदान कर सकते हैं.'
         execution: "drupal config:export:view viewid \\\n  --module=\"modulename\" \\\n  --optional-config \\\n  --include-module-dependencies\n"

@@ -7,21 +7,21 @@ options:
     class: 'क्लास का नाम'
     interface: इंटरफ़ेस
     services: common.questions.services
-    path: Path
+    path: पथ
 questions:
     module: common.questions.module
     service-name: 'सर्विस का नाम दर्ज करें'
     class: 'क्लास का नाम दर्ज करें'
     interface: 'एक नया इंटरफ़ेस बनाएं'
-    interface-name: 'Enter the interface name'
+    interface-name: 'इंटरफ़ेस नाम दर्ज करें'
     services: common.options.services
-    path: 'Enter the path for the services'
+    path: 'सेवाओं के लिए पथ दर्ज करें'
 messages:
-    service-already-taken: 'The service name has been already taken in module "%s"'
+    service-already-taken: 'सेवा नाम पहले ही मॉड्यूल "%s" में लिया गया है'
 examples:
     -
-        description: 'Generate a services without interface specifying the module name, the service name, the class and its path'
+        description: 'मॉड्यूल नाम, सेवा का नाम, कक्षा और उसके पथ को निर्दिष्ट इंटरफेस के बिना एक सेवाएं उत्पन्न करें'
         execution: "drupal generate:service  \\\n  --module=\"modulename\"  \\\n  --name=\"modulename.default\"  \\\n  --class=\"DefaultService\"  \\\n  --path-service=\"/modules/custom/modulename/src/\""
     -
-        description: 'Generate a services with interface specifying the module name, the service name, the class, the interface name and its path'
+        description: 'इंटरफ़ेस के साथ मॉड्यूल नाम, सेवा का नाम, कक्षा, इंटरफ़ेस नाम और उसका पथ निर्दिष्ट करने वाली सेवाओं को उत्पन्न करें'
         execution: "drupal generate:service  \\\n  --module=\"modulename\"  \\\n  --name=\"modulename.default\"  \\\n  --class=\"DefaultService\"  \\\n  --interface  \\\n  --interface-name=\"InterfaceName\"  \\\n  --path-service=\"/modules/custom/modulename/src/\"\n"

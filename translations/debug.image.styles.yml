@@ -5,5 +5,5 @@ messages:
     styles-name: 'मशीन का नाम'
 examples:
     -
-        description: 'List all images styles on the site'
+        description: 'साइट पर सभी छवियों शैलियों की सूची'
         execution: "drupal debug:image:styles\n"

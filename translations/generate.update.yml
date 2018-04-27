@@ -1,12 +1,12 @@
-description: 'Generate an implementation of hook_update_N()'
-help: 'The <info>"%s"</info> command helps you generate a hook update N "%s"'
+description: 'hook_update_N() के कार्यान्वयन को उत्पन्न करें'
+help: '<info>"%s"</info> आदेश आपको hook update N "%s" उत्पन्न करने में मदद करता है'
 options:
-    update-n: 'Update Number'
+    update-n: 'अद्यतन संख्या'
 questions:
-    update-n: 'Please provide the Update N to be implemeted'
+    update-n: 'कृपया अद्यतन एन को लागू करने के लिए प्रदान करें'
 messages:
-    wrong-update-n: 'The update number "%s" is invalid'
+    wrong-update-n: 'अद्यतन संख्या "%s" अमान्य है'
 examples:
     -
-        description: 'Generate an update N hook implementation specifying the module name and the N value'
+        description: 'मॉड्यूल नाम और N value निर्दिष्ट एक अद्यतन N hook कार्यान्वयन उत्पन्न करें'
         execution: "drupal generate:update  \\\n  --module=\"modulename\"  \\\n  --update-n=\"8001\"\n"

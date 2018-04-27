@@ -1,11 +1,11 @@
-description: 'Generate a .module file'
-help: 'The <info>generate:module:file</info> command helps you generates a new .module file'
-welcome: 'Welcome to the Drupal module generator'
+description: 'एक .module फ़ाइल जेनरेट करें'
+help: '<info>generate:module:file</info> आदेश आपको एक नई मॉड्यूल फ़ाइल उत्पन्न करने में मदद करता है'
+welcome: 'Drupal मॉड्यूल जनरेटर में आपका स्वागत है'
 options:
-    module: 'The Module name'
+    module: 'मॉड्यूल नाम'
 questions:
-    module: 'Enter the new module name'
+    module: 'नया मॉड्यूल नाम दर्ज करें'
 examples:
     -
-        description: 'Generate the .module file specifying the module name'
+        description: 'मॉड्यूल नाम निर्दिष्ट करने वाली .module फ़ाइल जेनरेट करें'
         execution: "drupal generate:module:file  \\\n  --module=\"modulename\""

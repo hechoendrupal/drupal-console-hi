@@ -20,5 +20,5 @@ messages:
     title-not-empty: 'शीर्षक खाली नही रह सकता'
 examples:
     -
-        description: 'Generate a command specifying the extension name and type, its class and the name.'
+        description: 'विस्तार नाम और प्रकार, इसकी कक्षा और नाम निर्दिष्ट करने वाला एक आदेश उत्पन्न करें.'
         execution: "drupal generate:command  \\\n  --extension=\"ExtensionName\"  \\\n  --extension-type=\"module\"  \\\n  --class=\"DefaultCommand\"  \\\n  --name=\"CommandName\""

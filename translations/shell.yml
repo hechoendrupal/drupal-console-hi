@@ -1,2 +1,2 @@
-description: 'Open a shell providing an interactive REPL (Read–Eval–Print-Loop).'
-help: 'This command provides a wrapper for psysh. A runtime developer console, interactive debugger and REPL for PHP.'
+description: 'एक इंटरैक्टिव REPL(रीड-इवल-प्रिंट-लूप) प्रदान करने वाला एक खोल खोलें.'
+help: 'यह आदेश psysh के लिए एक रैपर प्रदान करता है. एक रनटाइम डेवलपर Console, इंटरैक्टिव डीबगर और PHP के लिए REPL.'

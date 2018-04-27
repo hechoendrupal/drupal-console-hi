@@ -11,5 +11,5 @@ questions:
     class: 'कक्षा का नाम लिखे'
 examples:
     -
-        description: 'Generate a route subscriber specifying the module name, the route name and its class'
+        description: 'मॉड्यूल नाम, मार्ग का नाम और इसकी कक्षा निर्दिष्ट करने वाला एक रूट ग्राहक उत्पन्न करें'
         execution: "drupal generate:routesubscriber  \\\n  --module=\"modulename\"  \\\n  --name=\"modulename.route_subscriber\"  \\\n  --class=\"RouteSubscriber\"\n"

@@ -21,11 +21,11 @@ questions:
     context-definition-required: 'प्रसंग परिभाषा आवश्यक है'
 examples:
     -
-        description: 'Generate a plugin condition for a node entity type specifying the module name, the class, the label, its id and the context definition'
+        description: 'मॉड्यूल नाम, कक्षा, लेबल, इसकी आईडी और संदर्भ परिभाषा निर्दिष्ट करने वाले नोड इकाई प्रकार के लिए प्लगइन स्थिति उत्पन्न करें'
         execution: "drupal generate:plugin:condition  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleCondition\"  \\\n  --label=\"Example condition\"  \\\n  --plugin-id=\"example_condition\"  \\\n  --context-definition-id=\"entity:node\"  \\\n  --context-definition-label=\"node\"  \\\n  --context-definition-required"
     -
-        description: 'Generate a plugin condition for language specifying the module name, the class, the label, its id and the context definition'
+        description: 'मॉड्यूल नाम, कक्षा, लेबल, इसकी आईडी और संदर्भ परिभाषा निर्दिष्ट भाषा के लिए एक प्लगइन स्थिति उत्पन्न करें'
         execution: "drupal generate:plugin:condition  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleCondition\"  \\\n  --label=\"Example condition\"  \\\n  --plugin-id=\"example_condition\"  \\\n  --context-definition-id=\"language\"  \\\n  --context-definition-label=\"Language\"  \\\n  --context-definition-required"
     -
-        description: 'Generate a plugin condition for role configuration specifying the module name, the class, the label, its id and the context definition'
+        description: 'मॉड्यूल नाम, कक्षा, लेबल, इसकी आईडी और संदर्भ परिभाषा निर्दिष्ट करने वाली भूमिका विन्यास के लिए एक प्लगइन स्थिति उत्पन्न करें'
         execution: "drupal generate:plugin:condition  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleCondition\"  \\\n  --label=\"Example condition\"  \\\n  --plugin-id=\"example_condition\"  \\\n  --context-definition-id=\"entity:user_role\"  \\\n  --context-definition-label=\"user_role\"  \\\n  --context-definition-required\n"

@@ -1,14 +1,14 @@
-description: 'Displays all user permissions.'
-help: "Display all user permissions and also list all user permissions from a specific user role.\n\nList all user permissions:\n<info>drupal permission:debug</info>\n\nList all user permissions from a user role\n<info>drupal permission:debug authenticated</info>\n"
+description: 'सभी उपयोगकर्ता अनुमतियां प्रदर्शित करता है.'
+help: "सभी उपयोगकर्ता अनुमतियां प्रदर्शित करें और किसी विशिष्ट उपयोगकर्ता भूमिका से सभी उपयोगकर्ता अनुमतियां भी सूचीबद्ध करें.\n\nसभी उपयोगकर्ता अनुमतियां सूचीबद्ध करें:\n<info>drupal permission:debug</info>\n\nउपयोगकर्ता भूमिका से सभी उपयोगकर्ता अनुमतियां सूचीबद्ध करें\n<info>drupal permission:debug authenticated</info>\n"
 arguments:
-    role: 'User role'
+    role: 'उपयोगकर्ता भूमिका'
 messages:
-    role-error: 'Role "%s" does not exist. Please use an existing user role.'
+    role-error: 'भूमिका "%s" मौजूद नहीं है. मौजूदा उपयोगकर्ता भूमिका का प्रयोग करें.'
 table-headers:
-    permission-name: 'Permission name'
-    permission-label: 'Permission Label'
-    permission-role: Role
+    permission-name: 'अनुमति का नाम'
+    permission-label: 'अनुमति लेबल'
+    permission-role: भूमिका
 examples:
     -
-        description: 'Displays all the permissions availables on the site'
+        description: 'साइट पर उपलब्ध सभी अनुमतियां प्रदर्शित करता है'
         execution: "drupal debug:permission\n"

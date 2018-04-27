@@ -1,11 +1,11 @@
-description: 'Generate a Twig extension.'
-help: 'The <info>generate:twig:extension</info> command helps you to generate a Twig extension.'
-welcome: 'Welcome to the Drupal Twig Extension generator'
+description: 'एक टवीग एक्सटेंशन उत्पन्न करें.'
+help: '<info>generate:twig:extension</info> आदेश आपको एक टवीग एक्सटेंशन उत्पन्न करने में मदद करता है.'
+welcome: 'Drupal Twig एक्सटेंशन जनरेटर में आपका स्वागत है'
 options:
-    name: 'Twig Extension name'
+    name: 'ट्विग एक्सटेंशन नाम'
 questions:
-    twig-extension: 'Enter the Twig extension name'
+    twig-extension: 'Twig एक्सटेंशन नाम दर्ज करें'
 examples:
     -
-        description: 'Generate a twig extension specifying the module name, the extension name and its class'
+        description: 'मॉड्यूल नाम, एक्सटेंशन नाम और इसकी कक्षा निर्दिष्ट करने वाला एक टवीग एक्सटेंशन उत्पन्न करें'
         execution: "drupal generate:twig:extension  \\\n  --module=\"modulename\"  \\\n  --name=\"modulename.twig.extension\"  \\\n  --class=\"DefaultTwigExtension\"\n"

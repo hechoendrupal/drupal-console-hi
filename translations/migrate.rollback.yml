@@ -1,6 +1,6 @@
-description: 'Rollback one or multiple migrations'
+description: 'रोलबैक एक या एकाधिक माइग्रेशन'
 arguments:
-    id: 'Migration id(s)'
+    id: 'माइग्रेशन आईडी'
 messages:
-    not-available: 'Migration Id "%s" is invalid.Skipping'
-    processing: 'Rollback "%s" completed'
+    not-available: 'माइग्रेशन आईडी "%s" अमान्य है'
+    processing: 'रोलबैक "%s" पूरा हो गया'

@@ -11,8 +11,8 @@ options:
     db-prefix: 'डेटाबेस उपसर्ग'
     db-port: 'डेटाबेस पोर्ट'
     exclude: 'वर्जित किये गए माइग्रेशन क्रमांक'
-    source-base-path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
-    source-base_path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
+    source-base-path: 'आपकी स्रोत साइट (उदा। /var/www/docroot), या आपकी साइट पता (उदाहरण के लिए http://example.com) वाली स्थानीय फ़ाइल निर्देशिका'
+    source-base_path: 'आपकी स्रोत साइट (उदा। /var/www/docroot), या आपकी साइट पता (उदाहरण के लिए http://example.com) वाली स्थानीय फ़ाइल निर्देशिका'
 questions:
     id: 'माइग्रेशन क्रमांक'
     exclude-id: 'बाहर किए जाने वाले माइग्रेशन क्रमांक (प्रवसन बाहर बंद करने के लिए <return> दबायें)'
@@ -26,8 +26,8 @@ questions:
     db-prefix: 'डेटाबेस उपसर्ग'
     db-port: 'डेटाबेस पोर्ट'
     invalid-migration-id: 'माइग्रेशन क्रमांक "%s" अमान्य है|'
-    source-base-path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
-    source-base_path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
+    source-base-path: 'आपकी स्रोत साइट (उदा। /var/www/docroot), या आपकी साइट पता (उदाहरण के लिए http://example.com) वाली स्थानीय फ़ाइल निर्देशिका'
+    source-base_path: 'आपकी स्रोत साइट (उदा। /var/www/docroot), या आपकी साइट पता (उदाहरण के लिए http://example.com) वाली स्थानीय फ़ाइल निर्देशिका'
 messages:
     processing: '"%s" प्रोसेसिंग माइग्रेशन'
     imported: 'माइग्रेशन "%s" सफलतापूर्वक इम्पोर्ट किया गया'

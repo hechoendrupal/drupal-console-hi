@@ -18,5 +18,5 @@ messages:
     display-paths: पाथ
 examples:
     -
-        description: 'List of views on the site'
+        description: 'साइट पर विचारों की सूची'
         execution: "drupal debug:views\n"

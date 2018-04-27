@@ -6,18 +6,18 @@ options:
 messages:
     id: 'Rest क्रमांक'
     label: उप-शीर्षक
-    canonical-url: 'Canonical URL'
+    canonical-url: 'कैनोनिकल URL'
     status: स्थिति
     provider: प्रदाता
     enabled: 'सक्षम है'
     disabled: 'अक्षम है'
     rest-state: 'REST स्टेट्स'
     supported-formats: 'समर्थित प्रारूप'
-    supported-auth: 'Supported Authentication Providers'
+    supported-auth: 'समर्थित प्रमाणीकरण प्रदाता'
     not-found: 'REST संसाधन % नहीं मिला'
     canonical_url: 'प्रामाणिक URL'
     supported_auth: 'समर्थित प्रमाणन प्रदाता'
 examples:
     -
-        description: 'Displays rest hooks'
+        description: 'आराम हुक प्रदर्शित करता है'
         execution: "drupal debug:rest\n"

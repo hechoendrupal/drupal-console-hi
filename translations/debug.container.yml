@@ -1,26 +1,26 @@
 description: 'अनुप्रयोग की वर्तमान सर्विसेज़ को दिखाएँ।'
 arguments:
-    service: 'Service name.'
-    method: 'Method name.'
-    arguments: 'Array of Arguments in CSV or JSON format.'
+    service: 'सेवा का नाम.'
+    method: 'विधि का नाम.'
+    arguments: 'CSV या JSON प्रारूप में तर्क के ऐरे.'
 messages:
-    service-id: 'Service ID'
-    class-name: 'Class Name'
-    service: Service
-    class: Class
-    interface: Interface(s)
-    parent: 'Parent class'
-    variables: Variables
-    methods: Methods
-    arguments: Arguments
-    method: Method
-    return: Return
+    service-id: 'सेवा आईडी'
+    class-name: 'कक्षा का नाम'
+    service: सर्विस
+    class: कक्षा
+    interface: इंटरफेस
+    parent: 'अभिभावक वर्ग'
+    variables: चर
+    methods: तरीके
+    arguments: तर्क
+    method: तरीका
+    return: वापसी
     service_id: 'सर्विस क्रमांक'
     class_name: 'क्लास नाम'
 errors:
-    method-not-exists: 'This method doesn''t exists in this service.'
-    method_not_exists: 'This method doesn''t exists in this service.'
+    method-not-exists: 'यह विधि इस सेवा में मौजूद नहीं है.'
+    method_not_exists: 'यह विधि इस सेवा में मौजूद नहीं है.'
 examples:
     -
-        description: 'Displays the views.views_data_helper services'
+        description: 'प्रदर्शित करता है Views.views_data_helper सेवाएं'
         execution: "drupal debug:container views.views_data_helper\n"
