@@ -6,31 +6,37 @@ options:
     class: 'फॉर्म क्लास का नाम'
     form-id: 'फॉर्म आईडी'
     services: common.options.services
-    config-file: 'Add a config file'
+    config-file: 'एक विन्यास फाइल जोड़ें'
     inputs: common.options.inputs
-    path: 'Enter the form path'
-    menu-link-gen: 'Generate a menu link'
-    menu-link-title: 'A title for the menu link'
-    menu-parent: 'Menu parent'
-    menu-link-desc: 'A description for the menu link'
-    routing: 'Generate routing'
+    path: 'फॉर्म पथ दर्ज करें'
+    menu-link-gen: 'एक मेनू लिंक उत्पन्न करें'
+    menu-link-title: 'मेनू लिंक के लिए एक शीर्षक'
+    menu-parent: 'मेनू अभिभावक'
+    menu-link-desc: 'मेनू लिंक के लिए एक विवरण'
+    routing: 'रूटिंग जेनरेट करें'
 questions:
     module: common.questions.module
     class: 'फॉर्म क्लास का नाम दर्ज करें'
     form-id: 'फॉर्म आईडी दर्ज करें'
     services: common.questions.services
-    config-file: 'Do you want to generate a config file'
+    config-file: 'क्या आप एक कॉन्फ़िगरेशन फ़ाइल जेनरेट करना चाहते हैं'
     inputs: common.questions.inputs
-    routing: 'Would you like to register a route for this form'
-    path: 'Enter the route path'
+    routing: 'क्या आप इस फॉर्म के लिए एक मार्ग पंजीकृत करना चाहते हैं'
+    path: 'मार्ग पथ दर्ज करें'
+    max-amount-characters: 'अधिकतम वर्णों की संख्या'
+    textfield-width-in-chars: 'टेक्स्टफील्ड की चौड़ाई (पात्रों में)'
+    multiselect-size-in-lines: 'मल्टीइलेक्स्ट बॉक्स का आकार (लाइनों में)'
+    input-options: 'इनपुट विकल्प अल्पविराम से अलग'
     menu_link_gen: 'एक मेनू लिंक उत्पन्न'
     menu_link_title: 'मेनू लिंक के लिए एक शीर्षक'
     menu_parent: 'मेनू पैरेंट'
     menu_link_desc: 'मेनू लिंक के लिए एक विवरण'
+suggestions:
+    description-for-menu: 'मेनू प्रविष्टि के लिए एक विवरण'
 examples:
     -
-        description: 'Generate an empty form with config file specifying the module name, the class, a form id and the path'
+        description: 'मॉड्यूल नाम, कक्षा, एक फॉर्म आईडी और पथ निर्दिष्ट करने वाली कॉन्फ़िगरेशन फ़ाइल के साथ एक खाली फ़ॉर्म जेनरेट करें'
         execution: "drupal generate:form  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultForm\"  \\\n  --form-id=\"default_form\"  \\\n  --config-file  \\\n  --path=\"/modulename/form/default\""
     -
-        description: 'Generate a form with 2 fields and a config file specifying the module name, the class, a form id, the inputs and the path'
+        description: 'मॉड्यूल नाम, कक्षा, एक फॉर्म आईडी, इनपुट और पथ निर्दिष्ट करने वाले 2 फ़ील्ड और कॉन्फ़िगर फ़ाइल के साथ एक फॉर्म जेनरेट करें'
         execution: "drupal generate:form  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultForm\"  \\\n  --form-id=\"default_form\"  \\\n  --config-file  \\\n  --inputs='\"name\":\"inputname\", \"type\":\"text_format\", \"label\":\"InputName\", \"options\":\"\", \"description\":\"Just a text input\", \"maxlength\":\"\", \"size\":\"\", \"default_value\":\"\", \"weight\":\"0\", \"fieldset\":\"\"'  \\\n  --inputs='\"name\":\"email\", \"type\":\"email\", \"label\":\"Email\", \"options\":\"\", \"description\":\"Just an email input\", \"maxlength\":\"\", \"size\":\"\", \"default_value\":\"\", \"weight\":\"0\", \"fieldset\":\"\"'  \\\n  --path=\"/modulename/form/default\""

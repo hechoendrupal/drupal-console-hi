@@ -9,16 +9,16 @@ options:
     uri: 'Drupal यूआरआई साइट का(एकाधिक वातावरण के लिए या एक वैकल्पिक port पर चलते समय ) का उपयोग करे'
     'yes': 'स्किप कन्फर्मेशन और आगे बढ़ें'
     target: 'साइट का नाम आप (स्थानीय या दूरस्थ साइटों के लिए ) के साथ बातचीत करना चाहते हैं'
-    help: 'Display this help message'
-    quiet: 'Do not output any message'
-    verbose: 'Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug'
+    help: 'इस सहायता संदेश को प्रदर्शित करें'
+    quiet: 'किसी संदेश को आउटपुट न करें'
+    verbose: 'संदेशों की वर्बोजिटी बढ़ाएं: सामान्य आउटपुट के लिए 1, अधिक वर्बोज आउटपुट के लिए 2 और डीबग के लिए 3'
     version: '<info>"%s"</info> संस्करण <comment>"%s"</comment>'
-    ansi: 'Force ANSI output'
-    no-ansi: 'Disable ANSI output'
-    no-interaction: 'Do not ask any interactive question'
-    check-fix: 'Attempt to fix any missing configuration.'
+    ansi: 'ANSI आउटपुट फोर्स करें'
+    no-ansi: 'ANSI आउटपुट अक्षम करें'
+    no-interaction: 'किसी भी संवादात्मक सवाल मत पूछो'
+    check-fix: 'किसी भी लापता विन्यास को ठीक करने का प्रयास करें.'
 arguments:
-    command: 'The command to execute'
+    command: 'निष्पादित करने के लिए आदेश'
 messages:
     completed: 'कमाण्ड सफलतापूर्वक चलाया गया!'
     chain:
@@ -35,44 +35,44 @@ messages:
     version: '<info>"%s"</info> version <comment>"%s"</comment>'
     disable:
         command:
-            error: 'Command: "%s" is deprecated.'
-            extra: 'You must execute: "%s" instead'
+            error: 'कमांड: "%s" बहिष्कृत है.'
+            extra: 'आपको निष्पादित करना होगा: इसके बजाय "%s"'
 errors:
     invalid-command: 'कमाण्ड "%s" परिभाषित नही है।'
-    renamed-command: 'Command "%s" was renamed, use "%s" instead.'
+    renamed-command: 'कमांड "%s" का नाम बदल दिया गया था, इसके बजाय "%s" का उपयोग करें.'
 site:
     messages:
         path: 'साइट पथ'
     errors:
         settings: 'सभी उपलब्ध कमाण्डो की सूची करने के लिए आपको पहले drupal स्थापित करना होगा।'
         directory: 'सभी उपलब्ध कमाण्डो की सूची करने के लिए, आपको इसे एक Drupal रूट डायरेक्टरी के अंदर चलाना होगा।'
-        not-installed: 'Drupal Console is not installed at: %s'
-        execute-composer: 'You must execute the following composer commands:'
-        missing-config-file: 'Missing configuration file, possible paths:'
-        missing-config-file-command: 'Execute "drupal init" command to generate one'
+        not-installed: 'Drupal Console पर स्थापित नहीं है: %s'
+        execute-composer: 'आपको निम्नलिखित composer आदेश निष्पादित करना होगा:'
+        missing-config-file: 'गुम कॉन्फ़िगरेशन फ़ाइल, संभावित पथ:'
+        missing-config-file-command: 'एक उत्पन्न करने के लिए "drupal init" कमांड निष्पादित करें'
 user:
     messages:
         path: 'उपभोग्ता होम पथ'
 remote:
     errors:
-        passphrase-missing: 'Passphrase file is missing'
-        passphrase-empty: 'Passphrase file is empty'
-        private-missing: 'Private file is missing'
-        private-empty: 'Private file is empty'
-        private-invalid: 'Private file is invalid'
-        invalid-root: 'Invalid root directory'
-        console-not-found: 'Drupal Console not found on this site'
+        passphrase-missing: 'पासफ्रेज़ फ़ाइल गुम है'
+        passphrase-empty: 'पासफ्रेज फ़ाइल खाली है'
+        private-missing: 'निजी फाइल गुम है'
+        private-empty: 'निजी फाइल खाली है'
+        private-invalid: 'निजी फ़ाइल अमान्य है'
+        invalid-root: 'अवैध रूट निर्देशिका'
+        console-not-found: 'Drupal Console इस साइट पर नहीं मिला'
 gitbook:
     messages:
-        title: 'Available Drupal Console Commands'
+        title: 'उपलब्ध Drupal Console कमांड'
         note: Note
-        note-description: 'Drupal Console commands *must* be run from the root of a Drupal 8 installation'
-        command: 'Drupal Console Command'
-        command_description: 'The **"%s"** command "%s"'
-        usage: Usage
-        options: 'Available options'
-        option: Option
-        details: Details
-        arguments: 'Available arguments'
-        argument: Argument
-        examples: Examples
+        note-description: 'Drupal Console कमांड एक Drupal 8 स्थापना की जड़ से चलाना चाहिए'
+        command: 'Drupal Console कमांड'
+        command_description: '**"%s"** कमांड "%s"'
+        usage: प्रयोग
+        options: 'उपलब्ध विकल्प'
+        option: विकल्प
+        details: विवरण
+        arguments: 'उपलब्ध तर्क'
+        argument: तर्क
+        examples: उदाहरण

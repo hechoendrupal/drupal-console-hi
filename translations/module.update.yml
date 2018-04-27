@@ -1,18 +1,18 @@
-description: 'Update core, module or modules in the application'
+description: 'आवेदन में कोर, मॉड्यूल या मॉड्यूल अद्यतन करें'
 arguments:
-    module: 'Module or modules to be updated should be separated by a space. Leave empty for updating the core and all your modules managed by Composer.'
+    module: 'अद्यतन करने के लिए मॉड्यूल या मॉड्यूल एक अंतरिक्ष से अलग किया जाना चाहिए। कोर और संगीतकार द्वारा प्रबंधित आपके सभी मॉड्यूल को अपडेट करने के लिए खाली छोड़ दें.'
 options:
-    composer: 'Update the module using Composer'
-    simulate: 'Simulate the update process with Composer'
+    composer: 'Composer का उपयोग कर मॉड्यूल अद्यतन करें'
+    simulate: 'Composer के साथ अद्यतन प्रक्रिया अनुकरण करें'
 questions:
-    module: 'Module name (press <return> to stop adding modules)'
-    invalid-module: 'Invalid module "%s"'
+    module: 'मॉड्यूल नाम (मॉड्यूल जोड़ने को रोकने के लिए <return> दबाएं)'
+    invalid-module: 'अमान्य मॉड्यूल "%s"'
 messages:
-    success: 'The following module(s) were installed successfully: "%s"'
-    composer: 'The module "%s" was installed successfully with Composer'
-    only-composer: 'This command only updates modules via Composer. Use --composer option.'
-    missing-module: 'Enter a module(s) name(s) to update.'
+    success: 'निम्नलिखित मॉड्यूल सफलतापूर्वक स्थापित किए गए थे: "%s"'
+    composer: 'मॉड्यूल "%s" Composer के साथ सफलतापूर्वक स्थापित किया गया था'
+    only-composer: 'यह आदेश केवल composer के माध्यम से मॉड्यूल अद्यतन करता है। --composer विकल्प का प्रयोग करें.'
+    missing-module: 'अद्यतन करने के लिए एक मॉड्यूल (ओं) नाम दर्ज करें.'
 examples:
     -
-        description: 'Update module specifying module name and composer parameter'
+        description: 'मॉड्यूल नाम और composer पैरामीटर निर्दिष्ट मॉड्यूल अद्यतन करें'
         execution: "drupal module:update  modulename  \\\n  --composer\n"

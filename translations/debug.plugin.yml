@@ -1,24 +1,24 @@
-description: 'Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.'
-help: "List all plugin types:\n<info>drupal plugin:debug</info>\n\nList all instances of the image effect plugin type:\n<info>drupal plugin:debug image.effect</info>\n\nShow the definition for the image convert plugin:\n<info>drupal plugin:debug image.effect image_convert</info>\n\n<comment>NOTE: Only plugin types exposed through services are supported.</comment> When developing a custom plugin type, expose it as a service by adding it to modulename.services.yml with the name \"plugin.manager.PLUGIN_TYPE\".\n"
+description: 'सभी प्लगइन प्रकार, एक विशिष्ट प्रकार के प्लगइन उदाहरण, या एक विशिष्ट प्लगइन के लिए परिभाषा प्रदर्शित करें.'
+help: "सभी प्लगइन प्रकारों की सूची:\n<info>drupal plugin:debug</info>\n\n छवि प्रभाव प्लगइन प्रकार के सभी उदाहरण सूचीबद्ध करें:\n<info>drupal plugin:debug image.effect</info>\n\n छवि कनवर्ट करने के लिए परिभाषा दिखाएं प्लगइन:\n<info>drupal plugin:debug image.effect image_convert</info>\n\n<comment> नोट: सेवाओं के माध्यम से उजागर केवल प्लगइन प्रकार समर्थित हैं. </comment> विकास करते समय एक कस्टम प्लगइन प्रकार, इसे \"plugin.manager.PLUGIN_TYPE\".\n नाम के साथ modulename.services.yml में जोड़कर इसे एक सेवा के रूप में बेनकाब करें."
 arguments:
-    type: 'Plugin type'
-    id: 'Plugin ID'
+    type: 'प्लगइन प्रकार'
+    id: 'प्लगइन आईडी'
 errors:
-    plugin-type-not-found: 'Plugin type "%s" not found. No service available for that type.'
+    plugin-type-not-found: 'प्लगइन प्रकार "%s" नहीं मिला. उस प्रकार के लिए कोई सेवा उपलब्ध नहीं है.'
 table-headers:
-    plugin-type-name: 'Plugin type'
-    plugin-type-class: 'Plugin manager class'
-    plugin-id: 'Plugin ID'
-    plugin-class: 'Plugin class'
-    definition-key: Key
-    definition-value: Value
+    plugin-type-name: 'प्लगइन प्रकार'
+    plugin-type-class: 'प्लगइन प्रबंधक वर्ग'
+    plugin-id: 'प्लगइन आईडी'
+    plugin-class: 'प्लगइन कक्षा'
+    definition-key: कुंजी
+    definition-value: मूल्य
 examples:
     -
-        description: 'Displays a list with all the plugins on the current site'
+        description: 'वर्तमान साइट पर सभी प्लगइन के साथ एक सूची प्रदर्शित करता है'
         execution: 'drupal debug:plugin'
     -
-        description: 'Displays block plugin information'
+        description: 'ब्लॉक प्लगइन जानकारी प्रदर्शित करता है'
         execution: 'drupal debug:plugin block'
     -
-        description: 'Displays block broken information'
+        description: 'ब्लॉक टूटी हुई जानकारी प्रदर्शित करता है'
         execution: "drupal debug:plugin block broken\n"

@@ -15,6 +15,9 @@ questions:
     core: 'Drupal कोर संस्करण दर्ज करे'
     dependencies: 'आप मॉड्यूल निर्भरता जोड़ना चाहेंगे'
     distribution: 'यह स्थापित प्रोफ़ाइल एक वितरण होने का इरादा है'
+suggestions:
+    my-useful-profile: 'My Useful Profile'
+    my-kick-ass-distribution: 'My Kick-ass Distribution'
 warnings:
     module-unavailable: 'चेतावनी, निम्नलिखित मॉड्यूल पहले से ही अपने स्थानीय वातावरण में उपलब्ध नहीं हैं "%s"'
 errors:

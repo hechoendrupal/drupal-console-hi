@@ -1,19 +1,19 @@
-description: 'Displays current rest resource for the application'
+description: 'एप्लिकेशन के लिए वर्तमान आराम संसाधन प्रदर्शित करता है'
 arguments:
-    resource-id: 'Rest ID'
+    resource-id: 'बाकी आईडी'
 options:
-    status: 'Rest resource status enabled | disabled'
+    status: 'बाकी संसाधन स्थिति सक्षम | विकलांग'
 messages:
-    id: 'Rest ID'
-    label: Label
-    canonical-url: 'Canonical URL'
-    status: Status
-    provider: Provider
-    enabled: Enabled
-    disabled: Disabled
-    rest-state: 'REST States'
-    supported-formats: 'Supported Formats'
-    supported-auth: 'Supported Authentication Providers'
-    not-found: 'Rest resource "%s" not found'
-    canonical_url: 'Canonical URL'
-    supported_auth: 'Supported Authentication Providers'
+    id: 'बाकी आईडी'
+    label: लेबल
+    canonical-url: 'कैनोनिकल यूआरएल'
+    status: स्थिति
+    provider: प्रदाता
+    enabled: सक्रिय
+    disabled: विकलांग
+    rest-state: 'आरईएसटी राज्य'
+    supported-formats: 'समर्थित प्रारूप'
+    supported-auth: 'समर्थित प्रमाणीकरण प्रदाता'
+    not-found: 'बाकी संसाधन "%s" नहीं मिला'
+    canonical_url: 'कैनोनिकल यूआरएल'
+    supported_auth: 'समर्थित प्रमाणीकरण प्रदाता'

@@ -1,20 +1,20 @@
-description: 'Adds/removes a role for a given user'
-help: 'The <info>user:role</info> command helps you to add or remove a role to a user.'
-welcome: 'Welcome to the Drupal user rule'
+description: 'किसी दिए गए उपयोगकर्ता के लिए भूमिका जोड़ता / हटाता है'
+help: '<info>user:role</info> कमांड आपको उपयोगकर्ता को भूमिका जोड़ने या हटाने में मदद करता है.'
+welcome: 'Drupal उपयोगकर्ता नियम में आपका स्वागत है'
 arguments:
-    roles: 'Roles to add or remove. Please provide the machine name (only one)'
-    operation: 'Add or remove'
-    user: 'The affected user (only one)'
+    roles: 'जोड़ने या हटाने के लिए भूमिकाएं. कृपया मशीन का नाम दें (केवल एक)'
+    operation: 'जोड़ें या घटाएँ'
+    user: 'प्रभावित उपयोगकर्ता (केवल एक)'
 messages:
-    bad-arguments: 'Some arguments are missing! Please, provide all the following arguments: [add/remove] [username] [role]'
-    no-user-found: 'Username "%s" was not found!'
-    no-role-found: 'Role "%s" was not found!'
-    add-success: 'Username %1$s was added role %2$s sucessfully'
-    remove-success: 'Username %1$s was removed role %2$s sucessfully'
+    bad-arguments: 'कुछ तर्क गायब हैं. कृपया, निम्नलिखित सभी तर्क प्रदान करें: [add/remove] [username] [role]'
+    no-user-found: 'उपयोगकर्ता नाम "%s" नहीं मिला था!'
+    no-role-found: 'भूमिका "%s" नहीं मिली!'
+    add-success: 'उपयोगकर्ता नाम %1$s को %2$s सफलतापूर्वक जोड़ा गया था'
+    remove-success: 'उपयोगकर्ता नाम %1$s को %2$s सफलतापूर्वक हटा दिया गया था'
 examples:
     -
-        description: 'Add administrator role to the user admin specifying the username and the role'
+        description: 'उपयोगकर्ता नाम और भूमिका निर्दिष्ट करने वाले उपयोगकर्ता व्यवस्थापक को व्यवस्थापक भूमिका जोड़ें'
         execution: 'drupal user:role  add admin administrator'
     -
-        description: 'Remove administrator role from the user admin specifying the username and the role'
+        description: 'उपयोगकर्ता नाम और उपयोगकर्ता को निर्दिष्ट करने वाले उपयोगकर्ता व्यवस्थापक से व्यवस्थापक भूमिका हटाएं'
         execution: "drupal user:role  remove admin administrator\n"

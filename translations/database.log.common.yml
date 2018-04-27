@@ -1,12 +1,12 @@
 options:
-    type: 'Filter events by a specific type'
-    severity: 'Filter events by a specific level of severity'
-    user-id: 'Filter events by a specific user id'
+    type: 'एक विशिष्ट प्रकार से घटनाओं को फ़िल्टर करें'
+    severity: 'एक विशिष्ट स्तर की गंभीरता से घटनाओं को फ़िल्टर करें'
+    user-id: 'एक विशिष्ट उपयोगकर्ता आईडी द्वारा घटनाओं को फ़िल्टर करें'
 messages:
-    event-id: 'Event ID'
-    type: Type
-    date: Date
-    message: Message
-    user: User
-    severity: Severity
-    invalid-severity: 'Severity type is invalid, filter was ignored'
+    event-id: 'इवेंट आईडी'
+    type: प्रकार
+    date: तारीख
+    message: संदेश
+    user: उपयोगकर्ता
+    severity: तीव्रता
+    invalid-severity: 'गंभीरता प्रकार अमान्य है, फ़िल्टर को नजरअंदाज कर दिया गया था'

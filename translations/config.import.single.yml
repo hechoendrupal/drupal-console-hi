@@ -1,19 +1,19 @@
-description: 'Import the selected configuration.'
+description: 'चयनित विन्यास आयात करें.'
 options:
-    file: 'The file(s) name or file(s) absolute path to import'
-    directory: 'The path from where to import file(s).'
+    file: 'आयात करने के लिए फ़ाइल (ओं) नाम या फ़ाइल पूर्ण पथ'
+    directory: 'फ़ाइल आयात करने के लिए पथ कहां से.'
 questions:
-    file: 'Enter path to the import file'
-    directory: 'Enter path from where to import files.'
-    name: 'Enter configuration name'
+    file: 'आयात फ़ाइल के लिए पथ दर्ज करें'
+    directory: 'फ़ाइलों को आयात करने के लिए पथ दर्ज करें.'
+    name: 'कॉन्फ़िगरेशन नाम दर्ज करें'
 messages:
-    missing-file: 'File option is missing.'
-    empty-value: 'Value can not be empty'
-    success: 'The configuration "%s", had been imported.'
+    missing-file: 'फ़ाइल विकल्प गुम है.'
+    empty-value: 'मूल्य खाली नहीं हो सकता है'
+    success: 'विन्यास "%s", आयात किया गया था.'
 examples:
     -
-        description: 'Providing a file option using full path.'
+        description: 'पूर्ण पथ का उपयोग कर एक फ़ाइल विकल्प प्रदान करना.'
         execution: "drupal config:import:single \\\n  --file=\"/path/to/file/block.block.default_block.yml\""
     -
-        description: 'Providing file and directory options'
+        description: 'फ़ाइल और निर्देशिका विकल्प प्रदान करना'
         execution: "drupal config:import:single  \\\n  --file=\"block.block.default_block.yml\" \\\n  --directory=\"/path/to/directory\"\n"

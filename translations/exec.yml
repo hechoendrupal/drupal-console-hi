@@ -1,12 +1,12 @@
-description: 'Execute an external command.'
+description: 'बाहरी कमांड निष्पादित करें.'
 arguments:
-    bin: 'Executable name.'
+    bin: 'निष्पादन योग्य नाम.'
 options:
-    working-directory: 'The current working directory.'
+    working-directory: 'वर्तमान कामकाजी निर्देशिका.'
 messages:
-    success: 'Executed the command.'
-    invalid-bin: 'Error executing the command.'
-    missing-bin: 'Provide a executable.'
-    binary-not-found: 'Unable to find the binary %s to execute.'
-    working-directory: 'Working directory'
-    executing-command: 'Executing command'
+    success: 'आदेश का निष्पादन किया.'
+    invalid-bin: 'आदेश निष्पादित करने में त्रुटि.'
+    missing-bin: 'निष्पादन योग्य प्रदान करें.'
+    binary-not-found: 'निष्पादित करने के लिए बाइनरी %s खोजने में असमर्थ.'
+    working-directory: 'कार्यकारी डाइरेक्टरी'
+    executing-command: 'निष्पादन आदेश'

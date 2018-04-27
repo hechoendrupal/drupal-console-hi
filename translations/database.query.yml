@@ -1,19 +1,19 @@
-description: 'Executes a SQL statement directly as argument'
+description: 'तर्क के रूप में सीधे एक SQL कथन निष्पादित करता है'
 arguments:
-    query: 'The SQL statement to execute'
-    database: 'Database key from settings.php'
+    query: 'निष्पादित करने के लिए एसक्यूएल कथन'
+    database: 'Settings.php से डेटाबेस कुंजी'
 options:
-    quick: 'Do not cache each query result, print each row as it is received'
-    debug: 'Prints debugging information and memory and CPU usage statistics when the program exits'
-    html: 'Produce HTML output'
-    xml: 'Produce XML output'
-    raw: 'Special characters are not escaped in the output.'
-    vertical: 'Print query output rows vertically'
-    batch: 'Print results using tab as the column separator, with each row on a new line. With this option, mysql does not use the history file'
+    quick: 'प्रत्येक क्वेरी परिणाम कैश न करें, प्रत्येक पंक्ति को प्राप्त होने पर प्रिंट करें'
+    debug: 'जब कार्यक्रम निकलता है तो प्रिंट डिबगिंग जानकारी और मेमोरी और सीपीयू उपयोग आंकड़े'
+    html: 'HTML आउटपुट का उत्पादन करें'
+    xml: 'XML आउटपुट का उत्पादन करें'
+    raw: 'आउटपुट में विशेष पात्र बच नहीं पाए जाते हैं.'
+    vertical: 'मुद्रित क्वेरी आउटपुट पंक्तियों लंबवत'
+    batch: 'प्रत्येक पंक्ति के साथ एक नई पंक्ति पर कॉलम विभाजक के रूप में टैब का उपयोग करके परिणाम प्रिंट करें। इस विकल्प के साथ, mysql इतिहास फ़ाइल का उपयोग नहीं करता है'
 messages:
-    connection: 'Connection: "%s"'
-help: 'First argument should be the SQL statement. Second argument could be the name of the affected database.'
+    connection: 'कनेक्शन: "%s"'
+help: 'पहला तर्क एसक्यूएल कथन होना चाहिए. दूसरा तर्क प्रभावित डेटाबेस का नाम हो सकता है.'
 examples:
     -
-        description: 'Send a database query'
+        description: 'डेटाबेस क्वेरी भेजें'
         execution: "drupal database:query 'select * from node limit 0,1'\n"

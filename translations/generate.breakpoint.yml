@@ -1,18 +1,18 @@
-description: 'Generate breakpoint'
-help: 'The <info>generate:theme</info> command helps you generates a new breakpoint'
-welcome: 'Welcome to the Drupal breakpoint generator'
+description: 'ब्रेकपॉइंट उत्पन्न करें'
+help: '<info>generate:theme</info> आदेश आपको एक नया ब्रेकपॉइंट उत्पन्न करने में मदद करता है.'
+welcome: 'Drupal breakpoint जनरेटर में आपका स्वागत है'
 options:
-    theme: 'Theme name'
-    breakpoints: Breakpoints
+    theme: 'थीम का नाम'
+    breakpoints: ब्रेकप्वाइंट
 questions:
-    theme: 'Enter the theme name (i.e. classy, stable)'
-    breakpoint-name: 'Enter breakpoint name'
-    breakpoint-label: 'Enter breakpoint label'
-    breakpoint-media-query: 'Enter breakpoint media query'
-    breakpoint-weight: 'Enter breakpoint weight'
-    breakpoint-multipliers: 'Enter breakpoint multipliers'
-    breakpoint-add: 'Do you want to add another breakpoint'
+    theme: 'विषय का नाम दर्ज करें (यानी उत्तम दर्जे का, स्थिर)'
+    breakpoint-name: 'ब्रेकपॉइंट नाम दर्ज करें'
+    breakpoint-label: 'ब्रेकपॉइंट लेबल दर्ज करें'
+    breakpoint-media-query: 'ब्रेकपॉइंट मीडिया क्वेरी दर्ज करें'
+    breakpoint-weight: 'ब्रेकपॉइंट वजन दर्ज करें'
+    breakpoint-multipliers: 'ब्रेकपॉइंट गुणक दर्ज करें'
+    breakpoint-add: 'क्या आप एक और ब्रेकपॉइंट जोड़ना चाहते हैं'
 examples:
     -
-        description: 'Generate a breakpoint specifying the theme, a breakpoint name, its label, the media query, its weight and multipliers'
+        description: 'विषय, एक ब्रेकपॉइंट नाम, उसका लेबल, मीडिया क्वेरी, इसका वजन और गुणक निर्दिष्ट करने वाला ब्रेकपॉइंट उत्पन्न करें'
         execution: "drupal generate:breakpoint  \\\n  --theme=\"classy\"  \\\n  --breakpoints='\"breakpoint_name\":\"narrow\", \"breakpoint_label\":\"narrow\", \"breakpoint_media_query\":\"all and (min-width: 560px) and (max-width: 850px)\", \"breakpoint_weight\":\"1\", \"breakpoint_multipliers\":\"1x\"'"

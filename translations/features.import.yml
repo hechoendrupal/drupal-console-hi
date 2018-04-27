@@ -1,15 +1,15 @@
-description: 'Import module config.'
+description: 'आयात मॉड्यूल विन्यास.'
 help: ''
 options:
-    bundle: 'Bundle name'
+    bundle: 'Bबंडल नाम'
 arguments:
-    packages: 'Package name'
+    packages: 'पैकेज का नाम'
 questions:
-    packages: 'Enter package name to import'
+    packages: 'आयात करने के लिए पैकेज नाम दर्ज करें'
 messages:
-    no-packages: 'No packages available.'
-    not-available: 'Package %s, not available.'
-    importing: 'Importing package %s.'
-    uninstall: 'Package %s already installed.'
-    reverting: 'Reverting package %s.'
-    nothing: 'Nothing to import.'
+    no-packages: 'कोई पैकेज उपलब्ध नहीं है.'
+    not-available: 'पैकेज %s, उपलब्ध नहीं है.'
+    importing: 'पैकेज %s आयात कर रहा है.'
+    uninstall: 'पैकेज %s पहले से स्थापित है.'
+    reverting: 'पैकेज %s को वापस कर रहा है.'
+    nothing: 'आयात करने के लिए कुछ नहीं.'

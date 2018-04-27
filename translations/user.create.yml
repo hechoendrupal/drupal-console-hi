@@ -1,31 +1,31 @@
-description: 'Create users for the application'
-help: 'The <info>user:create</info> command helps you create users.'
-welcome: 'Welcome to the Drupal user create'
+description: 'एप्लिकेशन के लिए उपयोगकर्ताओं को बनाएँ'
+help: '<info>user:create</info> कमांड आपको उपयोगकर्ताओं को बनाने में मदद करता है.'
+welcome: 'Drupal उपयोगकर्ता बनाने में आपका स्वागत है'
 options:
-    username: 'User name to be created'
-    password: 'User password'
-    roles: 'User roles'
-    email: 'User email'
-    status: 'User status'
+    username: 'उपयोगकर्ता नाम बनाया जाना है'
+    password: 'उपयोगकर्ता पासवर्ड'
+    roles: 'उपयोगकर्ता भूमिका'
+    email: 'उपयोगकर्ता ईमेल'
+    status: 'उपयोगकर्ता की स्थिति'
 questions:
-    username: 'User name to be created'
-    password: 'User password (empty to auto-generate)'
-    roles: 'User roles (empty to skip)'
-    email: 'User e-mail (empty to skip)'
-    status: 'User status (empty to skip)'
+    username: 'उपयोगकर्ता नाम बनाया जाना है'
+    password: 'उपयोगकर्ता पासवर्ड (स्वतः उत्पन्न करने के लिए खाली)'
+    roles: 'उपयोगकर्ता भूमिकाएं (छोड़ने के लिए खाली)'
+    email: 'उपयोगकर्ता ई-मेल (छोड़ने के लिए खाली)'
+    status: 'उपयोगकर्ता की स्थिति (छोड़ने के लिए खाली)'
 messages:
-    user-id: 'User ID'
-    username: Username
-    password: Password
-    email: E-mail
-    roles: Roles
-    created: Created
-    status: Status
-    user-created: 'User "%s" was created successfully'
+    user-id: 'यूज़र आईडी'
+    username: 'उपयोगकर्ता नाम'
+    password: 'पारण शब्द'
+    email: ई-मेल
+    roles: भूमिकाएँ
+    created: 'बनाया था'
+    status: स्थिति
+    user-created: 'उपयोगकर्ता "%s" सफलतापूर्वक बनाया गया था'
 examples:
     -
-        description: 'Create user specifying username, password, role, email and status'
+        description: 'उपयोगकर्ता नाम, पासवर्ड, भूमिका, ईमेल और स्थिति निर्दिष्ट उपयोगकर्ता बनाएँ'
         execution: "drupal user:create  john p455w0rd  \\\n  --roles='authenticated'  \\\n  --email=\"john@anexusit.com\"  \\\n  --status=\"1\""
     -
-        description: 'Create admin user specifying username, password, role, email and status'
+        description: 'उपयोगकर्ता नाम, पासवर्ड, भूमिका, ईमेल और स्थिति निर्दिष्ट व्यवस्थापक उपयोगकर्ता बनाएँ'
         execution: "drupal user:create  doe p455w0rd  \\\n  --roles='administrator'  \\\n  --email=\"doe@anexusit.com\"  \\\n  --status=\"1\"\n"
