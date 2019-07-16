@@ -2,18 +2,29 @@ description: 'कंसोल के लिए कमाण्डो को उ�
 help: '<info>generate:command</info> कमाण्ड आपको एक नया कमाण्ड उत्पन्न करने में मदद करता है।'
 welcome: 'Drupal कमाण्ड उत्पादक में आपका स्वागत है'
 options:
-    module: common.options.module
-    controller-title: 'कंट्रोलर का शीर्षक'
+    extension: 'The name of the Extension (modules, profiles or themes name that will contain the command).'
+    extension-type: 'The type of the Extension (can be module, profile or theme).'
     class: 'कमाण्ड क्लास का नाम'
     name: 'कमाण्ड का नाम।'
+    interact: 'Add interact method.'
+    initialize: 'Add initialize method.'
     container-aware: 'Drupal साइट स्थापना के बारे में कमांड पता है जब एक्सेक्युट होगा?'
+    services: 'Load services from the container.'
+    generator: 'Add a Generator class for this command.'
+    module: common.options.module
+    controller-title: 'कंट्रोलर का शीर्षक'
     command: 'कमाण्ड का नाम (यह "Command" से अंत होना चाहिए)'
     container: 'सर्विसेज़ कंटेनर तक पहुचेँ'
 questions:
-    module: common.questions.module
+    extension: 'Enter the extension name'
     class: 'कमाण्ड क्लास का नाम दर्ज करें'
     name: 'कमाण्ड के नाम दर्ज करें।'
+    interact: 'Do you want to add the interact method?'
+    initialize: 'Do you want to add the initialize method?'
     container-aware: 'Drupal साइट स्थापना के बारे में कमांड पता है जब एक्सेक्युट होगा?'
+    services: 'Enter your service'
+    generator: 'Do you want to add a Generator class?.'
+    module: common.questions.module
     command: 'कमाण्ड का नाम दर्ज करें'
     container: 'क्या आप को सर्विसेज़ कंटेनर तक पहुचने की आवश्यकता है'
 messages:

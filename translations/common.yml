@@ -22,6 +22,9 @@ questions:
         confirm: 'क्या आप सेवाएं कंटेनर से भरना चाहेंगे।'
         message: "\nसर्विस का नाम दें या कुंजी दबाएँ।\nइच्छानुसार <info>जारी</info> रखने के लिए <info>enter</info> कुंजी दबाएँ\n"
         name: 'अपनी सेवाएँ दर्ज करें।'
+    roles:
+        message: "\nType the role name or use keyup or keydown.\nThis is optional, press <info>enter</info> to <info>continue</info>\n"
+        name: 'Enter your role'
     inputs:
         confirm: 'क्या आप फोर्म का खाका उतपन्न करना चाहेंगे?'
         label: 'उप-शीर्षक निवेश करें।'
@@ -34,6 +37,7 @@ questions:
         weight: 'इनपुट आइटम के लिए वजन'
         title: शीर्षक
         fieldset: 'फील्ड सेट'
+        new-field: 'Enter a new field properties'
         machine_name: 'यांत्रिक नाम निवेश करें।'
 errors:
     module-dependency: 'मॉड्यूल निर्भरता "%s" अनुपस्थित है'
@@ -49,3 +53,4 @@ messages:
     drupal-core: 'Drupal कोर'
     move-phar: 'आपके सिस्टम पर कहीं से console तक पहुँचने'
     quick-start: 'डाउनलोड, स्थापित और Drupal 8 की सेवा'
+    available-field-types: 'Available types: <comment>%s</comment>'

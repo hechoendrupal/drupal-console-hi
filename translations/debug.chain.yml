@@ -2,3 +2,5 @@ description: 'श्रृंखला फ़ाइलें की सूचि
 messages:
     directory: निर्देशिका
     file: 'श्रृंखला फ़ाइल नाम।'
+    command: 'Command name.'
+    no-files: 'No chain files found.'

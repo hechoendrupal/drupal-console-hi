@@ -5,6 +5,7 @@ options:
     latest: 'डिफ़ॉल्ट नवीनतम संस्करण डाउनलोड करने के लिए'
     path: 'The path of the contrib project'
     composer: 'Option to point out that the module will be downloaded, managed & installed by Composer'
+    unstable: 'Module unstable'
     version: 'मोड्यूल संस्करण अथवा 1.x-dev'
 questions:
     path: 'Enter the contrib project Path'

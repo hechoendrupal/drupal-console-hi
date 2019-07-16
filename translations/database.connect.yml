@@ -1,5 +1,7 @@
 description: 'लॉन्च एक DB क्लाइंट अगर यह उपलब्ध है'
 arguments:
+    key: 'Database key from settings.php'
+    target: 'Database target from settings.php'
     database: 'Settings.php से डाटाबेस कुंज'
 messages:
     database-not-found: 'डाटाबेस "%s" कनेक्शन की जानकारी नहीं मिला था'

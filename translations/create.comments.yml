@@ -28,6 +28,7 @@ messages:
     created: 'बनाया गया समय'
     invalid-content-types: 'कंटेंट टाइप्स "%s" अवैध हैं'
     created-comments: '"%s" कमेंट्स को सफलतापूर्वक बनाया गया'
+    error: 'Error creating comments: "%s"'
 examples:
     -
         description: 'Provide the node id where the comments will be generated.'

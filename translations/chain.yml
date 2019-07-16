@@ -13,6 +13,9 @@ messages:
     set-inline-placeholders: 'Pass inline placeholders as:'
     select-value-for-placeholder: 'Select value for %s placeholder'
     enter-value-for-placeholder: 'Enter value for %s placeholder'
+    legacy-inline: 'Update inline legacy placeholders from %{{name}} to {{name}}.'
+    legacy-environment: 'Update environment legacy placeholders from ${{(NAME}} or %env(NAME)% to {{env("NAME")}}.'
+    metadata-registration: "You should register your chain file as command by providing metadata, more info at:\n   https://docs.drupalconsole.com/en/chains/registering.html"
     missing_file: 'आपको एक वैध फ़ाइल पथ और नाम प्रदान करना होगा।'
     invalid_file: 'फ़ाइल "%s" मौजूद नहीं है।'
     module_install: 'module:install कमाण्ड श्रृंखला कतार के अंदर नहीं चलेगा और इसे अलग चलना पड़ेगा।'

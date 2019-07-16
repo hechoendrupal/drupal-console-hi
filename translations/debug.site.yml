@@ -4,10 +4,12 @@ messages:
     site: साइट
     host: होस्ट
     root: रूट
-    not-sites: 'No sites defined'
+    invalid-sites: 'No sites defined.'
+    invalid-sites-using: "Using a site alias requires local configuration, more info at:\n   https://docs.drupalconsole.com/en/alias/using-site-alias.html\n"
     invalid-site: 'Invalid site name'
     private-key: 'निजी कुंजी के साथ त्रुटि'
     connect-error: 'रिमोट मशीन से कनेक्ट होने में त्रुटि'
+    not-sites: 'No sites defined'
     directory-not-found: 'साइट की डायरेक्ट्री नहीं मिली|'
 options:
     target: Target

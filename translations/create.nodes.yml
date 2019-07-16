@@ -7,6 +7,7 @@ options:
     limit: 'आप कितने भी नोड्स बना सकते है'
     title-words: 'नोड टाइटल्स में शब्दों की अधिकतम संख्या'
     time-range: 'नोड्स दिनांकित किया जाना चाहिए की कितनी दूर समय में वापस होगा'
+    revision: 'Create revisions'
 questions:
     content-type: 'नोड क्रिएशन पर चयनित कंटेंट टाइप(स) इस्तेमाल किया गया'
     limit: 'आप कितने नोड्स जेनरेट करना चाहते हैं एंटर करे'
@@ -19,6 +20,7 @@ questions:
         - '1 सप्ताह पहले'
         - '1 महीने पहले'
         - '1 साल पहले'
+    revision: 'Do you want to add revisions?'
 messages:
     node-id: 'नोड आईडी'
     content-type: 'कंटेंट टाइप'
@@ -26,6 +28,7 @@ messages:
     created: 'बनाया गया समय'
     invalid-content-types: 'कंटेंट टाइप्स "%s" अवैध हैं'
     created-nodes: '"%s" नोड्स को सफलतापूर्वक बनाया गया'
+    error: 'Error creating nodes: "%s"'
 examples:
     -
         description: 'Provide the content type name.'
