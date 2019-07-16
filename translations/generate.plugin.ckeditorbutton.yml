@@ -6,6 +6,8 @@ options:
     class: 'प्लगइन क्लास नाम'
     label: 'प्लगइन लेबल'
     plugin-id: 'प्लगइन आईडी। नोट: यह CKEditor प्लगइन नाम से मेल खाती है। यह plugin.js फ़ाइल में CKEDITOR.plugins.add() फंक्शन के पहले आर्गुमेंट है।'
+    buttons: 'CKEditor buttons.'
+    button-properties: 'Enter a new button properties.'
     button-name: 'बटन नाम। नोट: यह CKEditor बटन नाम से मेल खाती है। वे plugin.js फ़ाइल में editor.ui.addButton() या editor.ui.addRichCombo() फ़ंक्शंस का पहला आर्गुमेंट हैं।'
     button-icon-path: 'बटन आइकन पथ। इस बटन के आइकन/इमेज के लिए मार्ग है।'
 questions:
@@ -15,6 +17,8 @@ questions:
     plugin-id: 'प्लगइन एंटर करें। नोट: यह CKEditor प्लगइन नाम से मेल खाती है। यह plugin.js फ़ाइल में CKEDITOR.plugins.add() फंक्शन के पहले आर्गुमेंट है।'
     button-name: 'बटन नाम एंटर करें। नोट: यह CKEditor बटन नाम से मेल खाती है। वे plugin.js फ़ाइल में editor.ui.addButton() या editor.ui.addRichCombo() फ़ंक्शंस का पहला आर्गुमेंट हैं।'
     button-icon-path: 'बटन आइकन पथ दर्ज करें'
+    button-label: 'Enter the button label'
+    button-add: 'Do you want to add another button?'
 examples:
     -
         description: 'Generate CKEditor button specifying the module name, the class, the label, its id, the button name and the icon path'

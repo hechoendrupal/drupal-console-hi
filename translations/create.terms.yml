@@ -16,6 +16,7 @@ messages:
     name: नाम
     invalid-vocabularies: 'वोकेबुलरी(स) "%s" अमान्य हैं'
     created-terms: '"%s" टर्म्ज़ सफलतापूर्वक बने'
+    error: 'Error creating terms: "%s"'
 examples:
     -
         description: 'Provide the vocabulary term name.'

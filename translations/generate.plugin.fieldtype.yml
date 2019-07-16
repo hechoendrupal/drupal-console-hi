@@ -17,6 +17,8 @@ questions:
     description: 'प्लगिन का विवरण दर्ज करें'
     default-widget: 'इस प्लगिन का डीफाल्ट खाना विजेट दर्ज करें'
     default-formatter: 'इस प्लगिन का डीफाल्ट खाना formatter दर्ज करें'
+suggestions:
+    my-field-type: 'My Field Type'
 examples:
     -
         description: 'Generate a field type plugin specifying the module name, the class, its label, the plugin id and a description'

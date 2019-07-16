@@ -31,6 +31,8 @@ questions:
     field-type: 'दर्ज करें खाना प्रकार formatter और विजेट प्लगिन साथ इस्तेमाल किया जा सकता'
     default-widget: 'खाना प्रकार  प्लगिन का डीफाल्ट खाना विजेट दर्ज करें'
     default-formatter: 'खाना प्रकार  प्लगिन का डीफाल्ट खाना formatter दर्ज करें'
+suggestions:
+    my-field-type: 'My Field Type'
 examples:
     -
         description: 'Generate field type, widget and formatter plugins specifying the module name, the type (class, label, plugin id and description), the formatter (class, label, plugin id) and the widget (class, label and plugin id)'

@@ -30,6 +30,8 @@ questions:
     test: 'क्या आप एक परीक्षण क्लास उत्पन्न करना चाहते हैं'
     twigtemplate: 'Do you want to generate a themeable template'
     controller: 'क्या आप डीफाल्ट कंट्रोलर उत्पन्न करना चाहते हैं'
+suggestions:
+    my-awesome-module: 'My Awesome Module'
 warnings:
     module-unavailable: 'चेतावनी, निम्नलिखित मॉड्यूल पहले से ही अपने स्थानीय वातावरण में उपलब्ध नहीं हैं "%s"'
 errors:

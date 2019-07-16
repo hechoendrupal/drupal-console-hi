@@ -2,6 +2,7 @@ description: 'एक दिए गए डेटाबेस में सभी 
 help: '<info>database:drop</info> कमांड आप को डेटाबेस टेबल्स ड्राप करने में मदद करता है।'
 arguments:
     database: 'Settings.php से डाटाबेस कुंज'
+    target: 'Database target from settings.php'
 question:
     drop-tables: 'पुष्टि करे की आप वास्तव में डेटाबेस "%s" में सभी टेबल्स ड्रॉप करना चाहता हूँ?'
 messages:

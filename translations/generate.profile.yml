@@ -4,17 +4,24 @@ welcome: 'Drupal स्थापना प्रोफाइल जनक मे
 options:
     profile: 'प्रोफाइल नाम'
     machine-name: 'मशीन का नाम (लोअरकेस और अंडरस्कोर केवल)'
+    profile-path: 'The path of the profile'
     description: 'प्रोफाइल विवरण'
     core: 'कोर संस्करण'
     dependencies: 'मॉड्यूल निर्भरता अल्पविराम से अलग किया जाता है (जेसे context, panels)'
+    themes: 'the theme name'
     distribution: 'वितरण नाम'
 questions:
     profile: 'नई प्रोफ़ाइल का नाम दर्ज करे'
     machine-name: 'मशीन का नाम दर्ज करे'
+    profile-path: 'Enter the profile Path'
     description: 'विवरण दर्ज करे'
     core: 'Drupal कोर संस्करण दर्ज करे'
     dependencies: 'आप मॉड्यूल निर्भरता जोड़ना चाहेंगे'
+    themes: 'Enter theme name'
     distribution: 'यह स्थापित प्रोफ़ाइल एक वितरण होने का इरादा है'
+suggestions:
+    my-useful-profile: 'My Useful Profile'
+    my-kick-ass-distribution: 'My Kick-ass Distribution'
 warnings:
     module-unavailable: 'चेतावनी, निम्नलिखित मॉड्यूल पहले से ही अपने स्थानीय वातावरण में उपलब्ध नहीं हैं "%s"'
 errors:

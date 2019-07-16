@@ -3,6 +3,9 @@ options:
     file: 'Path to an archive file of configuration to import.'
     directory: 'Path to a directory of configuration to import.'
     remove-files: 'Remove files after synchronization.'
+    skip-uuid: 'Skip uuid from files'
+questions:
+    directory: 'Enter the directory name to import the configuration files.'
 messages:
     config_files_imported: 'व्यवस्था फाइलों कि सूचि।'
     imported: 'सारे समाकृत फाइलो को स्टेजिंग डायरेक्टरी में प्रतिरूप और आयात कर दिया गया है।'

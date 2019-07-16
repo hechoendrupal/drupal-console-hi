@@ -1,6 +1,7 @@
 description: 'MYSQL डाटाबेस और टेबल्स ले कंटेंट और संरचना को रिस्टोर करे'
 arguments:
     database: 'Settings.php से डाटाबेस कुंजी'
+    target: 'Database target from settings.php'
 options:
     file: 'अपने डेटाबेस बैकअप फ़ाइल के लिए फ़ाइल नाम'
 messages:

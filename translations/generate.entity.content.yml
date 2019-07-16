@@ -1,11 +1,14 @@
 description: 'एक नई कंटेंट एंटिटि बनाए'
 help: ''
+welcome: 'Welcome to the Drupal Content Entity generator'
 options:
     module: common.options.module
     entity-class: 'कंटेंट एंटिटि कक्षा'
     entity-name: 'कंटेंट एंटिटि नाम'
     label: लेबल
     has-bundles: 'एंटिटि मॆ बंडल हे'
+    has-forms: 'Entity has forms'
+    has-owner: 'Entity has owner'
     base-path: 'कॉन्फिग एंटिटी रुट्स के लिए बेस पथ'
     is-translatable: 'Content entity translatable'
 questions:
@@ -14,6 +17,8 @@ questions:
     entity-name: 'अपने नई कंटेंट एंटिटि का नाम लिखॆ'
     label: 'अपने नई कंटेंट एंटिटि का लेबल लिखॆ'
     has-bundles: 'आप (कंटेंट) एंटिटि  मे बंडल चाहते हैं'
+    has-forms: 'Do you want this (content) entity to have forms?'
+    has-owner: 'Do you want this (content) entity to have an owner?'
     base-path: 'कॉन्फिग एंटिटी रुट्स के लिए बेस पथ दर्ज करे'
     is-translatable: 'Is your entity translatable'
     revisionable: 'Is your entity revisionable'

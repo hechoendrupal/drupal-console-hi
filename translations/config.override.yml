@@ -8,12 +8,16 @@ arguments:
     key: कुंजी
     value: निधि
     config-name: 'व्यवस्था का नाम।'
+options:
+    key: Key
+    value: Value
 messages:
     configuration: 'व्यवस्था का नाम'
     configuration-key: 'व्यवस्था की कुंजी'
     original: 'मूल निधि'
     updated: 'चढ़ाई निधि'
     invalid-name: 'Config object "%s", does not exists'
+    invalid-config-file: 'Config file does not exist.'
 examples:
     -
         description: '"flood" मॉड्यूल संपर्क 10 का मूल्य निर्धारित किया है।'
